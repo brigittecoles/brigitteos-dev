@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "@base": "https://brigitteos.dev/ontology/capability#",
+    "acl": "https://brigitteos.dev/ontology/capability#",
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "Capability": "acl:Capability",
+    "Cluster": "acl:Cluster",
+    "Zone": "acl:Zone",
+    "Action": "acl:Action",
+    "Object": "acl:Object",
+    "Qualification": "acl:Qualification",
+    "Context": "acl:Context",
+    "Outcome": "acl:Outcome",
+    "Audience": "acl:Audience",
+    "AtomicStatement": "acl:AtomicStatement",
+    "name": "schema:name",
+    "description": "schema:description",
+    "identifier": "schema:identifier",
+    "belongsToCluster": {
+      "@id": "acl:belongsToCluster",
+      "@type": "@id"
+    },
+    "inZone": {
+      "@id": "acl:inZone",
+      "@type": "@id"
+    },
+    "hasAction": {
+      "@id": "acl:hasAction",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasObject": {
+      "@id": "acl:hasObject",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasQualification": {
+      "@id": "acl:hasQualification",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasContext": {
+      "@id": "acl:hasContext",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasOutcome": {
+      "@id": "acl:hasOutcome",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasAudience": {
+      "@id": "acl:hasAudience",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasStatement": {
+      "@id": "acl:hasStatement",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "strengthIndex": {
+      "@id": "acl:strengthIndex",
+      "@type": "xsd:decimal"
+    },
+    "depth": {
+      "@id": "acl:depth",
+      "@type": "xsd:integer"
+    },
+    "breadth": {
+      "@id": "acl:breadth",
+      "@type": "xsd:integer"
+    },
+    "differentiation": {
+      "@id": "acl:differentiation",
+      "@type": "xsd:integer"
+    },
+    "prefLabel": "skos:prefLabel",
+    "frequency": {
+      "@id": "acl:frequency",
+      "@type": "xsd:integer"
+    },
+    "capabilityCount": {
+      "@id": "acl:capabilityCount",
+      "@type": "xsd:integer"
+    }
+  }
+}

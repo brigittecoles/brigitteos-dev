@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atomic Capability Ontology — brigitteos.dev</title>
+<link rel="alternate" type="application/ld+json" href="https://brigitteos.dev/ontology/capability.jsonld">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #070154; --blue: #0047FF; --magenta: #F900D3; --yellow: #F6EB21;
+  --bg: #030030; --text: #e8e6f0; --dim: #9994b8; --border: rgba(0,71,255,0.2);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'IBM Plex Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 40px 24px; }
+h1 { font-family: 'IBM Plex Mono', monospace; font-size: 22px; color: #fff; margin-bottom: 4px; }
+h1 span { color: var(--magenta); }
+.subtitle { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--dim); margin-bottom: 24px; }
+h2 { font-family: 'IBM Plex Mono', monospace; font-size: 16px; color: var(--blue); margin: 32px 0 12px; letter-spacing: -0.01em; }
+h3 { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--magenta); margin: 24px 0 8px; }
+p { font-size: 14px; color: var(--dim); margin-bottom: 12px; max-width: 720px; }
+code { font-family: 'IBM Plex Mono', monospace; font-size: 12px; background: rgba(0,71,255,0.1); padding: 1px 5px; border-radius: 3px; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.meta-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13px; }
+.meta-table td { padding: 6px 12px; border-bottom: 1px solid var(--border); }
+.meta-table td:first-child { font-family: 'IBM Plex Mono', monospace; color: var(--dim); width: 180px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+.cap-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 12px; }
+.cap-table th { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--dim); text-align: left; padding: 8px 6px; border-bottom: 2px solid var(--border); position: sticky; top: 0; background: var(--bg); }
+.cap-table td { padding: 8px 6px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.cap-table .num { text-align: center; font-family: 'IBM Plex Mono', monospace; color: var(--blue); font-weight: 600; }
+.def { font-size: 11px; color: var(--dim); display: block; margin-top: 2px; }
+.dim-cell { font-size: 11px; color: var(--dim); max-width: 140px; }
+
+.badge { display: inline-block; font-family: 'IBM Plex Mono', monospace; font-size: 9px; font-weight: 600; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+.badge.core { background: rgba(249,0,211,0.15); color: var(--magenta); border: 1px solid rgba(249,0,211,0.3); }
+.badge.adjacent { background: rgba(0,71,255,0.15); color: var(--blue); border: 1px solid rgba(0,71,255,0.3); }
+.badge.expansion { background: rgba(246,235,33,0.15); color: var(--yellow); border: 1px solid rgba(246,235,33,0.3); }
+
+.term-group { margin-bottom: 16px; }
+.term-group h4 { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--text); margin-bottom: 6px; }
+.term-group .count { color: var(--dim); font-weight: 400; }
+.top-terms { display: flex; flex-wrap: wrap; gap: 6px; }
+.term { font-family: 'IBM Plex Mono', monospace; font-size: 11px; padding: 3px 8px; border-radius: 4px; background: rgba(0,71,255,0.08); border: 1px solid var(--border); }
+.term sup { color: var(--magenta); font-size: 9px; margin-left: 2px; }
+
+.code-block { background: #010024; border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin: 12px 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; line-height: 1.5; overflow-x: auto; white-space: pre; }
+
+.table-scroll { overflow-x: auto; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--border); font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--dim); }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Atomic Capability <span>Ontology</span></h1>
+  <div class="subtitle">https://brigitteos.dev/ontology/capability#</div>
+
+  <p>A normalized ontology decomposing professional capabilities into composable atomic dimensions — Action, Object, Qualification, Context, Outcome, Audience — for positioning, agent configuration, and knowledge graph construction.</p>
+
+  <h2>Metadata</h2>
+  <table class="meta-table">
+    <tr><td>Namespace</td><td><code>https://brigitteos.dev/ontology/capability#</code></td></tr>
+    <tr><td>Preferred prefix</td><td><code>acl</code></td></tr>
+    <tr><td>Version</td><td>1.0.0</td></tr>
+    <tr><td>Issued</td><td>2026-03-24</td></tr>
+    <tr><td>Creator</td><td>Brigitte</td></tr>
+    <tr><td>License</td><td>Proprietary</td></tr>
+    <tr><td>Serializations</td><td>
+      <a href="/ontology/capability.jsonld">JSON-LD</a> ·
+      <a href="/ontology/capability.nt">N-Triples</a> ·
+      <a href="/ontology/capability/context.jsonld">Context</a>
+    </td></tr>
+    <tr><td>Graph statistics</td><td>616 nodes · 600+ edges · 20 capabilities · 527 terms · 60 statements</td></tr>
+  </table>
+
+  <h2>Classes</h2>
+  <table class="meta-table">
+    <tr><td>acl:Capability</td><td>A discrete professional capability with scored dimensions and zone classification.</td></tr>
+    <tr><td>acl:Cluster</td><td>A thematic grouping of capabilities (Architecture, Commercialization, etc.).</td></tr>
+    <tr><td>acl:Zone</td><td>Strategic positioning tier: Core signature, Adjacent supporting, Credible expansion.</td></tr>
+    <tr><td>acl:Action</td><td>A verb describing what the capability does.</td></tr>
+    <tr><td>acl:Object</td><td>The thing the capability acts upon.</td></tr>
+    <tr><td>acl:Qualification</td><td>A quality modifier (e.g., governable, scalable, resilient).</td></tr>
+    <tr><td>acl:Context</td><td>The engagement or deployment context.</td></tr>
+    <tr><td>acl:Outcome</td><td>The measurable result the capability drives.</td></tr>
+    <tr><td>acl:Audience</td><td>The stakeholder the capability serves.</td></tr>
+    <tr><td>acl:AtomicStatement</td><td>A composed sentence combining one value from each dimension.</td></tr>
+  </table>
+
+  <h2>Properties</h2>
+  <table class="meta-table">
+    <tr><td>acl:belongsToCluster</td><td>Capability → Cluster</td></tr>
+    <tr><td>acl:inZone</td><td>Capability → Zone</td></tr>
+    <tr><td>acl:hasAction</td><td>Capability → Action (set)</td></tr>
+    <tr><td>acl:hasObject</td><td>Capability → Object (set)</td></tr>
+    <tr><td>acl:hasQualification</td><td>Capability → Qualification (set)</td></tr>
+    <tr><td>acl:hasContext</td><td>Capability → Context (set)</td></tr>
+    <tr><td>acl:hasOutcome</td><td>Capability → Outcome (set)</td></tr>
+    <tr><td>acl:hasAudience</td><td>Capability → Audience (set)</td></tr>
+    <tr><td>acl:hasStatement</td><td>Capability → AtomicStatement (set)</td></tr>
+    <tr><td>acl:strengthIndex</td><td>xsd:decimal — weighted composite of depth, breadth, differentiation</td></tr>
+    <tr><td>acl:depth</td><td>xsd:integer — technical depth score (1–10)</td></tr>
+    <tr><td>acl:breadth</td><td>xsd:integer — cross-domain applicability (1–10)</td></tr>
+    <tr><td>acl:differentiation</td><td>xsd:integer — market uniqueness (1–10)</td></tr>
+    <tr><td>acl:frequency</td><td>xsd:integer — term occurrence count across the library</td></tr>
+    <tr><td>acl:capabilityCount</td><td>xsd:integer — number of capabilities using this term</td></tr>
+  </table>
+
+  <h2>Term Statistics (Top 5 by frequency)</h2>
+  <div class="term-group">
+      <h4>Action <span class="count">(72 terms)</span></h4>
+      <div class="top-terms"><span class="term">map <sup>4</sup></span><span class="term">analyze <sup>3</sup></span><span class="term">classify <sup>3</sup></span><span class="term">define <sup>3</sup></span><span class="term">package <sup>3</sup></span></div>
+    </div><div class="term-group">
+      <h4>Object <span class="count">(95 terms)</span></h4>
+      <div class="top-terms"><span class="term">control layers <sup>2</sup></span><span class="term">messages <sup>2</sup></span><span class="term">offerings <sup>2</sup></span><span class="term">roles <sup>2</sup></span><span class="term">skills <sup>2</sup></span></div>
+    </div><div class="term-group">
+      <h4>Qualification <span class="count">(86 terms)</span></h4>
+      <div class="top-terms"><span class="term">scalable <sup>4</sup></span><span class="term">differentiated <sup>3</sup></span><span class="term">evidence-based <sup>2</sup></span><span class="term">implementation-ready <sup>2</sup></span><span class="term">issue-led <sup>2</sup></span></div>
+    </div><div class="term-group">
+      <h4>Context <span class="count">(97 terms)</span></h4>
+      <div class="top-terms"><span class="term">account planning <sup>2</sup></span><span class="term">business development <sup>2</sup></span><span class="term">sales enablement <sup>2</sup></span><span class="term">account targeting <sup>1</sup></span><span class="term">adjacent business lines <sup>1</sup></span></div>
+    </div><div class="term-group">
+      <h4>Outcome <span class="count">(100 terms)</span></h4>
+      <div class="top-terms"><span class="term">behavior change <sup>1</sup></span><span class="term">better accountability <sup>1</sup></span><span class="term">better assistant quality <sup>1</sup></span><span class="term">better build quality <sup>1</sup></span><span class="term">better buyer resonance <sup>1</sup></span></div>
+    </div><div class="term-group">
+      <h4>Audience <span class="count">(77 terms)</span></h4>
+      <div class="top-terms"><span class="term">executives <sup>5</sup></span><span class="term">sellers <sup>5</sup></span><span class="term">investors <sup>4</sup></span><span class="term">enterprise architects <sup>3</sup></span><span class="term">founders <sup>3</sup></span></div>
+    </div>
+
+  <h2>Capability Register</h2>
+  <div class="table-scroll">
+  <table class="cap-table">
+    <thead><tr>
+      <th>ID</th><th>Capability</th><th>Zone</th><th>Σ</th>
+      <th>Actions</th><th>Objects</th><th>Qualifications</th><th>Contexts</th><th>Outcomes</th><th>Audiences</th>
+    </tr></thead>
+    <tbody><tr>
+      <td><code>C01</code></td>
+      <td><strong>Agentic enterprise architecture / AgentOS design</strong><br><span class="def">Designs modular, governable enterprise agent systems that connect orchestration, memory, control, and deployment.</span></td>
+      <td><span class="badge core">Core signature</span></td>
+      <td class="num">10</td>
+      <td class="dim-cell"><span class="dim-terms">architect, orchestrate, modularize, govern, instrument</span></td><td class="dim-cell"><span class="dim-terms">agent systems, orchestrators, runtime layers, memory layers, control planes</span></td><td class="dim-cell"><span class="dim-terms">modular, enterprise-grade, governable, scalable, resilient</span></td><td class="dim-cell"><span class="dim-terms">enterprise transformation, multi-agent platforms, hybrid runtime environments, local-first deployments, system-of-systems design</span></td><td class="dim-cell"><span class="dim-terms">coordinated execution, greater controllability, repeatable deployment, lower fragility, enterprise-grade performance</span></td><td class="dim-cell"><span class="dim-terms">cios, ctos, ai leaders, enterprise architects, product and innovation leaders</span></td>
+    </tr><tr>
+      <td><code>C02</code></td>
+      <td><strong>Meta-architecture / synthesis across strategy, tech, finance, and operations</strong><br><span class="def">Integrates strategic, technical, financial, operational, and governance perspectives into one coherent system model.</span></td>
+      <td><span class="badge core">Core signature</span></td>
+      <td class="num">10</td>
+      <td class="dim-cell"><span class="dim-terms">synthesize, connect, translate, integrate, reconcile</span></td><td class="dim-cell"><span class="dim-terms">business strategy, technical systems, financial logic, operating models, governance structures</span></td><td class="dim-cell"><span class="dim-terms">systems-level, cross-functional, economically grounded, executive-legible, internally coherent</span></td><td class="dim-cell"><span class="dim-terms">enterprise redesign, ai transformation, commercialization planning, operating model design, complex change programs</span></td><td class="dim-cell"><span class="dim-terms">strategic coherence, cross-functional alignment, better decision-making, lower fragmentation, higher implementation feasibility</span></td><td class="dim-cell"><span class="dim-terms">executives, transformation leaders, strategy teams, board stakeholders, operating partners</span></td>
+    </tr><tr>
+      <td><code>C03</code></td>
+      <td><strong>AI operating model design</strong><br><span class="def">Structures how AI and agents are owned, governed, reviewed, and operated inside real organizations.</span></td>
+      <td><span class="badge core">Core signature</span></td>
+      <td class="num">9.4</td>
+      <td class="dim-cell"><span class="dim-terms">define, structure, assign, standardize, monitor</span></td><td class="dim-cell"><span class="dim-terms">roles, workflows, decision rights, review paths, control layers</span></td><td class="dim-cell"><span class="dim-terms">scalable, measurable, role-clear, policy-aware, implementation-ready</span></td><td class="dim-cell"><span class="dim-terms">enterprise ai adoption, ai coe builds, operating model redesign, departmental ai deployment, transformation programs</span></td><td class="dim-cell"><span class="dim-terms">clear accountability, smoother execution, stronger controls, lower ambiguity, consistent delivery</span></td><td class="dim-cell"><span class="dim-terms">coos, caios, ai pmo leaders, department heads, transformation teams</span></td>
+    </tr><tr>
+      <td><code>C04</code></td>
+      <td><strong>Consulting offering architecture / service catalog design</strong><br><span class="def">Turns capabilities into structured offerings, modules, and service catalogs that are sellable and repeatable.</span></td>
+      <td><span class="badge core">Core signature</span></td>
+      <td class="num">9.4</td>
+      <td class="dim-cell"><span class="dim-terms">define, package, tier, map, differentiate</span></td><td class="dim-cell"><span class="dim-terms">offerings, service modules, capabilities, skills, value propositions</span></td><td class="dim-cell"><span class="dim-terms">buyer-relevant, repeatable, delivery-aware, differentiated, taxonomy-aligned</span></td><td class="dim-cell"><span class="dim-terms">consulting portfolio redesign, commercialization programs, service catalog creation, practice strategy, gtm modernization</span></td><td class="dim-cell"><span class="dim-terms">clearer portfolio, easier selling, stronger delivery consistency, better cross-sell, greater differentiation</span></td><td class="dim-cell"><span class="dim-terms">offering leaders, practice leaders, sellers, delivery leaders, firm leadership</span></td>
+    </tr><tr>
+      <td><code>C05</code></td>
+      <td><strong>AI-enabled business development and account planning</strong><br><span class="def">Uses AI and strategic analysis to identify priorities, buyers, white space, and pursuit paths inside accounts.</span></td>
+      <td><span class="badge core">Core signature</span></td>
+      <td class="num">9.1</td>
+      <td class="dim-cell"><span class="dim-terms">analyze, prioritize, target, map, recommend</span></td><td class="dim-cell"><span class="dim-terms">accounts, buyers, opportunities, relationship networks, strategic issues</span></td><td class="dim-cell"><span class="dim-terms">commercially actionable, account-specific, issue-led, buyer-aware, evidence-based</span></td><td class="dim-cell"><span class="dim-terms">account planning, pursuit strategy, relationship expansion, pipeline development, sales enablement</span></td><td class="dim-cell"><span class="dim-terms">better targeting, stronger account plans, more relevant pursuits, pipeline growth, higher cross-sell potential</span></td><td class="dim-cell"><span class="dim-terms">account directors, client partners, sellers, practice leaders, growth teams</span></td>
+    </tr><tr>
+      <td><code>C06</code></td>
+      <td><strong>Local-first AI infrastructure and deployment design</strong><br><span class="def">Designs durable local and hybrid AI deployments with strong control over compute, storage, and dependencies.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">9</td>
+      <td class="dim-cell"><span class="dim-terms">design, deploy, package, secure, operationalize</span></td><td class="dim-cell"><span class="dim-terms">runtimes, containers, storage layers, local compute environments, hybrid architectures</span></td><td class="dim-cell"><span class="dim-terms">local-first, durable, portable, secure, low-dependency</span></td><td class="dim-cell"><span class="dim-terms">on-prem deployments, regulated environments, private installations, edge environments, hybrid enterprise builds</span></td><td class="dim-cell"><span class="dim-terms">deployment control, greater privacy, vendor flexibility, operational durability, lower cloud dependence</span></td><td class="dim-cell"><span class="dim-terms">enterprise architects, it teams, security-conscious buyers, operators, technical founders</span></td>
+    </tr><tr>
+      <td><code>C07</code></td>
+      <td><strong>Knowledge graph / ontology / enterprise information architecture</strong><br><span class="def">Builds semantic structures that make enterprise knowledge reusable, interoperable, and machine-readable.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">9</td>
+      <td class="dim-cell"><span class="dim-terms">model, classify, define, relate, normalize</span></td><td class="dim-cell"><span class="dim-terms">entities, relationships, taxonomies, ontologies, metadata</span></td><td class="dim-cell"><span class="dim-terms">semantically consistent, extensible, reusable, machine-readable, traceable</span></td><td class="dim-cell"><span class="dim-terms">rag systems, knowledge architecture, data harmonization, agent memory design, capability mapping</span></td><td class="dim-cell"><span class="dim-terms">better retrieval, stronger reasoning, cleaner structure, interoperability, reusable enterprise intelligence</span></td><td class="dim-cell"><span class="dim-terms">ai architects, knowledge managers, data leaders, enterprise architects, product teams</span></td>
+    </tr><tr>
+      <td><code>C08</code></td>
+      <td><strong>Private equity value creation / EBITDA-oriented transformation</strong><br><span class="def">Frames transformation and AI initiatives in terms of EBITDA, operating leverage, and portfolio value creation.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">9</td>
+      <td class="dim-cell"><span class="dim-terms">diagnose, quantify, prioritize, model, frame</span></td><td class="dim-cell"><span class="dim-terms">value levers, cost structures, revenue drivers, operating metrics, portfolio initiatives</span></td><td class="dim-cell"><span class="dim-terms">ebitda-linked, economically rigorous, investor-legible, action-oriented, operationally grounded</span></td><td class="dim-cell"><span class="dim-terms">pe diligence, portfolio strategy, transformation planning, cfo conversations, operating partner work</span></td><td class="dim-cell"><span class="dim-terms">clear value thesis, measurable impact, stronger prioritization, better investment narrative, operating leverage</span></td><td class="dim-cell"><span class="dim-terms">operating partners, pe funds, cfos, ceos, portfolio company leaders</span></td>
+    </tr><tr>
+      <td><code>C09</code></td>
+      <td><strong>AI commercialization / product strategy / incubation</strong><br><span class="def">Shapes AI products and solution concepts into validated, prioritized, monetizable offerings.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">8.7</td>
+      <td class="dim-cell"><span class="dim-terms">incubate, shape, validate, prioritize, commercialize</span></td><td class="dim-cell"><span class="dim-terms">ai products, solution concepts, prototypes, commercialization paths, roadmaps</span></td><td class="dim-cell"><span class="dim-terms">market-aware, monetizable, scalable, differentiated, practical</span></td><td class="dim-cell"><span class="dim-terms">innovation programs, new venture design, internal productization, solution incubation, advisory product development</span></td><td class="dim-cell"><span class="dim-terms">stronger product-market fit, clearer roadmap, better monetization, scalable offers, faster validation</span></td><td class="dim-cell"><span class="dim-terms">product leaders, founders, innovation teams, commercialization leads, investors</span></td>
+    </tr><tr>
+      <td><code>C10</code></td>
+      <td><strong>Process architecture, SOPs, and current-state analysis</strong><br><span class="def">Documents and analyzes current operations to reveal pain points, controls, and redesign opportunities.</span></td>
+      <td><span class="badge expansion">Credible expansion</span></td>
+      <td class="num">8.1</td>
+      <td class="dim-cell"><span class="dim-terms">document, map, analyze, decompose, redesign</span></td><td class="dim-cell"><span class="dim-terms">processes, subprocesses, handoffs, roles, controls</span></td><td class="dim-cell"><span class="dim-terms">structured, detailed, evidence-based, workflow-aware, improvement-oriented</span></td><td class="dim-cell"><span class="dim-terms">process improvement, operational diagnostics, documentation programs, service delivery design, transformation initiatives</span></td><td class="dim-cell"><span class="dim-terms">process clarity, identified pain points, standardization, efficiency improvement, training-ready artifacts</span></td><td class="dim-cell"><span class="dim-terms">operations leaders, process owners, pmo teams, quality teams, delivery teams</span></td>
+    </tr><tr>
+      <td><code>C11</code></td>
+      <td><strong>Market intelligence / competitor analysis / strategic research</strong><br><span class="def">Researches and interprets market and competitor signals to support strategy, positioning, and pursuit planning.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">8.7</td>
+      <td class="dim-cell"><span class="dim-terms">research, synthesize, compare, interpret, recommend</span></td><td class="dim-cell"><span class="dim-terms">markets, competitors, trends, strategic signals, industry events</span></td><td class="dim-cell"><span class="dim-terms">current, evidence-backed, decision-relevant, commercially useful, nuanced</span></td><td class="dim-cell"><span class="dim-terms">account planning, pursuit prep, executive briefings, offering design, industry strategy</span></td><td class="dim-cell"><span class="dim-terms">better situational awareness, sharper positioning, stronger recommendations, competitive clarity, more informed decisions</span></td><td class="dim-cell"><span class="dim-terms">executives, strategy teams, sellers, offering leaders, investors</span></td>
+    </tr><tr>
+      <td><code>C12</code></td>
+      <td><strong>AI governance, QA, diagnostics, and control frameworks</strong><br><span class="def">Creates diagnostic, quality, and control layers that make enterprise AI outputs more auditable and trustworthy.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">8.7</td>
+      <td class="dim-cell"><span class="dim-terms">evaluate, diagnose, classify, score, govern</span></td><td class="dim-cell"><span class="dim-terms">outputs, agent behaviors, quality criteria, risk types, control layers</span></td><td class="dim-cell"><span class="dim-terms">structured, auditable, measurable, explainable, governance-ready</span></td><td class="dim-cell"><span class="dim-terms">enterprise ai deployment, regulated workflows, output review, model oversight, quality management</span></td><td class="dim-cell"><span class="dim-terms">higher output quality, lower risk, clear remediation, greater trust, better accountability</span></td><td class="dim-cell"><span class="dim-terms">ai governance teams, risk leaders, legal and compliance teams, executives, qa teams</span></td>
+    </tr><tr>
+      <td><code>C13</code></td>
+      <td><strong>Training, enablement, and cultural activation for AI adoption</strong><br><span class="def">Builds the training, scaffolding, and behavior-change mechanisms needed for real AI adoption.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">8.7</td>
+      <td class="dim-cell"><span class="dim-terms">teach, equip, activate, coach, reinforce</span></td><td class="dim-cell"><span class="dim-terms">skills, mindsets, behaviors, training materials, templates</span></td><td class="dim-cell"><span class="dim-terms">practical, behavior-oriented, accessible, repeatable, adoption-focused</span></td><td class="dim-cell"><span class="dim-terms">ai adoption programs, leadership development, enterprise enablement, change management, consulting team training</span></td><td class="dim-cell"><span class="dim-terms">stronger adoption, higher ai fluency, improved confidence, behavior change, reduced resistance</span></td><td class="dim-cell"><span class="dim-terms">leaders, managers, employees, enablement functions, transformation offices</span></td>
+    </tr><tr>
+      <td><code>C14</code></td>
+      <td><strong>Executive thought leadership and analytical writing</strong><br><span class="def">Produces high-signal analytical writing that makes complex systems legible and commercially meaningful.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">9</td>
+      <td class="dim-cell"><span class="dim-terms">write, frame, synthesize, argue, explain</span></td><td class="dim-cell"><span class="dim-terms">articles, white papers, frameworks, strategic narratives, povs</span></td><td class="dim-cell"><span class="dim-terms">original, rigorous, readable, high-signal, distinctive</span></td><td class="dim-cell"><span class="dim-terms">brand building, publication, executive education, market education, business development</span></td><td class="dim-cell"><span class="dim-terms">stronger credibility, market differentiation, executive understanding, demand creation, clearer narratives</span></td><td class="dim-cell"><span class="dim-terms">executives, clients, market audiences, conference organizers, investors</span></td>
+    </tr><tr>
+      <td><code>C15</code></td>
+      <td><strong>AI-native application design / product specs / UX structure</strong><br><span class="def">Designs AI-native application structures and build specs that connect user flow to agent behavior.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">8.7</td>
+      <td class="dim-cell"><span class="dim-terms">specify, design, sequence, prototype, translate</span></td><td class="dim-cell"><span class="dim-terms">app flows, ux logic, build specs, system prompts, configurations</span></td><td class="dim-cell"><span class="dim-terms">ai-native, implementation-ready, modular, clear, developer-usable</span></td><td class="dim-cell"><span class="dim-terms">ai app development, internal tool builds, prototype handoffs, solution design, agentic product builds</span></td><td class="dim-cell"><span class="dim-terms">better build quality, faster execution, stronger usability, clearer developer handoff, reduced ambiguity</span></td><td class="dim-cell"><span class="dim-terms">developers, product managers, designers, founders, innovation teams</span></td>
+    </tr><tr>
+      <td><code>C16</code></td>
+      <td><strong>OpenAI / Claude / CustomGPT / agent workflow design</strong><br><span class="def">Configures platform-specific assistant workflows that improve reliability, reuse, and task completion.</span></td>
+      <td><span class="badge adjacent">Adjacent supporting</span></td>
+      <td class="num">8.8</td>
+      <td class="dim-cell"><span class="dim-terms">configure, orchestrate, prompt, constrain, optimize</span></td><td class="dim-cell"><span class="dim-terms">assistants, prompts, toolchains, knowledge libraries, workflow chains</span></td><td class="dim-cell"><span class="dim-terms">platform-aware, precise, reusable, quality-controlled, outcome-oriented</span></td><td class="dim-cell"><span class="dim-terms">assistant development, enterprise copilots, rapid prototyping, multi-agent systems, internal ai tools</span></td><td class="dim-cell"><span class="dim-terms">better assistant quality, more reliable outputs, improved task completion, reusable patterns, faster prototyping</span></td><td class="dim-cell"><span class="dim-terms">builders, ai teams, consultants, product owners, end users</span></td>
+    </tr><tr>
+      <td><code>C17</code></td>
+      <td><strong>Consulting sales methodology and buyer positioning</strong><br><span class="def">Sharpens buyer-facing narratives, proof points, and pursuit discipline for consulting sales motions.</span></td>
+      <td><span class="badge expansion">Credible expansion</span></td>
+      <td class="num">7.7</td>
+      <td class="dim-cell"><span class="dim-terms">position, tailor, align, differentiate, guide</span></td><td class="dim-cell"><span class="dim-terms">messages, buyer narratives, talk tracks, proof points, conversation paths</span></td><td class="dim-cell"><span class="dim-terms">buyer-specific, persuasive, issue-led, context-aware, commercially sharp</span></td><td class="dim-cell"><span class="dim-terms">business development, proposal shaping, sales conversations, pursuits, sales enablement</span></td><td class="dim-cell"><span class="dim-terms">better buyer resonance, higher conversion quality, stronger pursuit discipline, clearer messaging, improved win support</span></td><td class="dim-cell"><span class="dim-terms">sellers, client partners, account teams, bd leaders, practice leaders</span></td>
+    </tr><tr>
+      <td><code>C18</code></td>
+      <td><strong>Cross-industry solution contextualization</strong><br><span class="def">Adapts solutions and value stories so they fit specific industries without becoming generic.</span></td>
+      <td><span class="badge expansion">Credible expansion</span></td>
+      <td class="num">8</td>
+      <td class="dim-cell"><span class="dim-terms">adapt, translate, tailor, align, map</span></td><td class="dim-cell"><span class="dim-terms">offerings, use cases, value stories, messages, solution components</span></td><td class="dim-cell"><span class="dim-terms">industry-specific, credible, nuance-aware, strategically aligned, non-generic</span></td><td class="dim-cell"><span class="dim-terms">vertical gtm, account targeting, multi-industry consulting, portfolio design, market expansion</span></td><td class="dim-cell"><span class="dim-terms">stronger industry fit, better relevance, improved resonance, reduced genericity, better market access</span></td><td class="dim-cell"><span class="dim-terms">industry leaders, clients, sellers, offering teams, strategy leaders</span></td>
+    </tr><tr>
+      <td><code>C19</code></td>
+      <td><strong>Risk, misuse, and threat-oriented AI analysis</strong><br><span class="def">Analyzes misuse patterns and safety threats so AI systems and policies can be designed more defensively.</span></td>
+      <td><span class="badge expansion">Credible expansion</span></td>
+      <td class="num">7.7</td>
+      <td class="dim-cell"><span class="dim-terms">assess, anticipate, analyze, classify, surface</span></td><td class="dim-cell"><span class="dim-terms">misuse scenarios, threat patterns, behavioral risks, safety gaps, vulnerabilities</span></td><td class="dim-cell"><span class="dim-terms">safety-aware, scenario-based, ethically grounded, risk-sensitive, analytically rigorous</span></td><td class="dim-cell"><span class="dim-terms">ai safety research, policy work, enterprise risk discussions, trust and safety strategy, public thought leadership</span></td><td class="dim-cell"><span class="dim-terms">better preparedness, clearer risk posture, stronger safeguards, safer design, differentiated safety perspective</span></td><td class="dim-cell"><span class="dim-terms">risk teams, policy audiences, researchers, executives, trust and safety leaders</span></td>
+    </tr><tr>
+      <td><code>C20</code></td>
+      <td><strong>Venture building around AI advisory and products</strong><br><span class="def">Packages capabilities into ventures, brands, and monetizable product or advisory platforms.</span></td>
+      <td><span class="badge expansion">Credible expansion</span></td>
+      <td class="num">8.3</td>
+      <td class="dim-cell"><span class="dim-terms">envision, package, launch, brand, commercialize</span></td><td class="dim-cell"><span class="dim-terms">ventures, brands, services, products, revenue models</span></td><td class="dim-cell"><span class="dim-terms">entrepreneurial, differentiated, market-oriented, scalable, strategically coherent</span></td><td class="dim-cell"><span class="dim-terms">startup creation, advisory launch, studio models, adjacent business lines, external commercialization</span></td><td class="dim-cell"><span class="dim-terms">new revenue streams, clear market identity, scalable ip platform, stronger monetization, ecosystem leverage</span></td><td class="dim-cell"><span class="dim-terms">founders, buyers, investors, strategic partners, early clients</span></td>
+    </tr></tbody>
+  </table>
+  </div>
+
+  <h2>Usage</h2>
+  <h3>Reference in JSON-LD</h3>
+  <div class="code-block">{"@context": "https://brigitteos.dev/ontology/capability",
+"@id": "acl:C01",
+"@type": "Capability",
+"hasAction": ["acl:action/architect", "acl:action/orchestrate"]}</div>
+
+  <h3>SPARQL query example</h3>
+  <div class="code-block">PREFIX acl: &lt;https://brigitteos.dev/ontology/capability#&gt;
+PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+
+SELECT ?cap ?name ?action ?actionLabel WHERE {
+  ?cap a acl:Capability ;
+       schema:name ?name ;
+       acl:hasAction ?action ;
+       acl:inZone acl:zone/Core_signature .
+  ?action skos:prefLabel ?actionLabel .
+}</div>
+
+  <footer>
+    Atomic Capability Library v1.0.0 · Generated 2026-03-24 · Namespace: acl:
+  </footer>
+</div>
+</body>
+</html>

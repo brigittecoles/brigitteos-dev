@@ -1,0 +1,5666 @@
+{
+  "@context": "https://brigitteos.dev/ontology/capability",
+  "@id": "https://brigitteos.dev/ontology/capability",
+  "@type": "schema:DefinedTermSet",
+  "schema:name": "Atomic Capability Library",
+  "schema:version": "1.0.0",
+  "dcterms:creator": "Brigitte",
+  "dcterms:description": "A normalized ontology decomposing professional capabilities into composable atomic dimensions (Action, Object, Qualification, Context, Outcome, Audience) for positioning, agent configuration, and knowledge graph construction.",
+  "dcterms:issued": "2026-03-24",
+  "@graph": [
+    {
+      "@id": "acl:cluster/Architecture",
+      "@type": "Cluster",
+      "prefLabel": "Architecture"
+    },
+    {
+      "@id": "acl:cluster/Commercialization",
+      "@type": "Cluster",
+      "prefLabel": "Commercialization"
+    },
+    {
+      "@id": "acl:cluster/Execution___control",
+      "@type": "Cluster",
+      "prefLabel": "Execution / control"
+    },
+    {
+      "@id": "acl:cluster/Meta-synthesis",
+      "@type": "Cluster",
+      "prefLabel": "Meta-synthesis"
+    },
+    {
+      "@id": "acl:cluster/Translation",
+      "@type": "Cluster",
+      "prefLabel": "Translation"
+    },
+    {
+      "@id": "acl:cluster/Value_creation",
+      "@type": "Cluster",
+      "prefLabel": "Value creation"
+    },
+    {
+      "@id": "acl:zone/Adjacent_supporting",
+      "@type": "Zone",
+      "prefLabel": "Adjacent supporting"
+    },
+    {
+      "@id": "acl:zone/Core_signature",
+      "@type": "Zone",
+      "prefLabel": "Core signature"
+    },
+    {
+      "@id": "acl:zone/Credible_expansion",
+      "@type": "Zone",
+      "prefLabel": "Credible expansion"
+    },
+    {
+      "@id": "acl:action/activate",
+      "@type": "Action",
+      "prefLabel": "activate",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/adapt",
+      "@type": "Action",
+      "prefLabel": "adapt",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/align",
+      "@type": "Action",
+      "prefLabel": "align",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/analyze",
+      "@type": "Action",
+      "prefLabel": "analyze",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:action/anticipate",
+      "@type": "Action",
+      "prefLabel": "anticipate",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/architect",
+      "@type": "Action",
+      "prefLabel": "architect",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/argue",
+      "@type": "Action",
+      "prefLabel": "argue",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/assess",
+      "@type": "Action",
+      "prefLabel": "assess",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/assign",
+      "@type": "Action",
+      "prefLabel": "assign",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/brand",
+      "@type": "Action",
+      "prefLabel": "brand",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/classify",
+      "@type": "Action",
+      "prefLabel": "classify",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:action/coach",
+      "@type": "Action",
+      "prefLabel": "coach",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/commercialize",
+      "@type": "Action",
+      "prefLabel": "commercialize",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/compare",
+      "@type": "Action",
+      "prefLabel": "compare",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/configure",
+      "@type": "Action",
+      "prefLabel": "configure",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/connect",
+      "@type": "Action",
+      "prefLabel": "connect",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/constrain",
+      "@type": "Action",
+      "prefLabel": "constrain",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/decompose",
+      "@type": "Action",
+      "prefLabel": "decompose",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/define",
+      "@type": "Action",
+      "prefLabel": "define",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:action/deploy",
+      "@type": "Action",
+      "prefLabel": "deploy",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/design",
+      "@type": "Action",
+      "prefLabel": "design",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/diagnose",
+      "@type": "Action",
+      "prefLabel": "diagnose",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/differentiate",
+      "@type": "Action",
+      "prefLabel": "differentiate",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/document",
+      "@type": "Action",
+      "prefLabel": "document",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/envision",
+      "@type": "Action",
+      "prefLabel": "envision",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/equip",
+      "@type": "Action",
+      "prefLabel": "equip",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/evaluate",
+      "@type": "Action",
+      "prefLabel": "evaluate",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/explain",
+      "@type": "Action",
+      "prefLabel": "explain",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/frame",
+      "@type": "Action",
+      "prefLabel": "frame",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/govern",
+      "@type": "Action",
+      "prefLabel": "govern",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/guide",
+      "@type": "Action",
+      "prefLabel": "guide",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/incubate",
+      "@type": "Action",
+      "prefLabel": "incubate",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/instrument",
+      "@type": "Action",
+      "prefLabel": "instrument",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/integrate",
+      "@type": "Action",
+      "prefLabel": "integrate",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/interpret",
+      "@type": "Action",
+      "prefLabel": "interpret",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/launch",
+      "@type": "Action",
+      "prefLabel": "launch",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/map",
+      "@type": "Action",
+      "prefLabel": "map",
+      "frequency": 4,
+      "capabilityCount": 4
+    },
+    {
+      "@id": "acl:action/model",
+      "@type": "Action",
+      "prefLabel": "model",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/modularize",
+      "@type": "Action",
+      "prefLabel": "modularize",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/monitor",
+      "@type": "Action",
+      "prefLabel": "monitor",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/normalize",
+      "@type": "Action",
+      "prefLabel": "normalize",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/operationalize",
+      "@type": "Action",
+      "prefLabel": "operationalize",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/optimize",
+      "@type": "Action",
+      "prefLabel": "optimize",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/orchestrate",
+      "@type": "Action",
+      "prefLabel": "orchestrate",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/package",
+      "@type": "Action",
+      "prefLabel": "package",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:action/position",
+      "@type": "Action",
+      "prefLabel": "position",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/prioritize",
+      "@type": "Action",
+      "prefLabel": "prioritize",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:action/prompt",
+      "@type": "Action",
+      "prefLabel": "prompt",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/prototype",
+      "@type": "Action",
+      "prefLabel": "prototype",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/quantify",
+      "@type": "Action",
+      "prefLabel": "quantify",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/recommend",
+      "@type": "Action",
+      "prefLabel": "recommend",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/reconcile",
+      "@type": "Action",
+      "prefLabel": "reconcile",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/redesign",
+      "@type": "Action",
+      "prefLabel": "redesign",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/reinforce",
+      "@type": "Action",
+      "prefLabel": "reinforce",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/relate",
+      "@type": "Action",
+      "prefLabel": "relate",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/research",
+      "@type": "Action",
+      "prefLabel": "research",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/score",
+      "@type": "Action",
+      "prefLabel": "score",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/secure",
+      "@type": "Action",
+      "prefLabel": "secure",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/sequence",
+      "@type": "Action",
+      "prefLabel": "sequence",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/shape",
+      "@type": "Action",
+      "prefLabel": "shape",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/specify",
+      "@type": "Action",
+      "prefLabel": "specify",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/standardize",
+      "@type": "Action",
+      "prefLabel": "standardize",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/structure",
+      "@type": "Action",
+      "prefLabel": "structure",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/surface",
+      "@type": "Action",
+      "prefLabel": "surface",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/synthesize",
+      "@type": "Action",
+      "prefLabel": "synthesize",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:action/tailor",
+      "@type": "Action",
+      "prefLabel": "tailor",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:action/target",
+      "@type": "Action",
+      "prefLabel": "target",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/teach",
+      "@type": "Action",
+      "prefLabel": "teach",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/tier",
+      "@type": "Action",
+      "prefLabel": "tier",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/translate",
+      "@type": "Action",
+      "prefLabel": "translate",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:action/validate",
+      "@type": "Action",
+      "prefLabel": "validate",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:action/write",
+      "@type": "Action",
+      "prefLabel": "write",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/account_directors",
+      "@type": "Audience",
+      "prefLabel": "account directors",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/account_teams",
+      "@type": "Audience",
+      "prefLabel": "account teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/AI_architects",
+      "@type": "Audience",
+      "prefLabel": "AI architects",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/AI_governance_teams",
+      "@type": "Audience",
+      "prefLabel": "AI governance teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/AI_leaders",
+      "@type": "Audience",
+      "prefLabel": "AI leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/AI_PMO_leaders",
+      "@type": "Audience",
+      "prefLabel": "AI PMO leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/AI_teams",
+      "@type": "Audience",
+      "prefLabel": "AI teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/BD_leaders",
+      "@type": "Audience",
+      "prefLabel": "BD leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/board_stakeholders",
+      "@type": "Audience",
+      "prefLabel": "board stakeholders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/builders",
+      "@type": "Audience",
+      "prefLabel": "builders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/buyers",
+      "@type": "Audience",
+      "prefLabel": "buyers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/CAIOs",
+      "@type": "Audience",
+      "prefLabel": "CAIOs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/CEOs",
+      "@type": "Audience",
+      "prefLabel": "CEOs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/CFOs",
+      "@type": "Audience",
+      "prefLabel": "CFOs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/CIOs",
+      "@type": "Audience",
+      "prefLabel": "CIOs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/client_partners",
+      "@type": "Audience",
+      "prefLabel": "client partners",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:audience/clients",
+      "@type": "Audience",
+      "prefLabel": "clients",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:audience/commercialization_leads",
+      "@type": "Audience",
+      "prefLabel": "commercialization leads",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/conference_organizers",
+      "@type": "Audience",
+      "prefLabel": "conference organizers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/consultants",
+      "@type": "Audience",
+      "prefLabel": "consultants",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/COOs",
+      "@type": "Audience",
+      "prefLabel": "COOs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/CTOs",
+      "@type": "Audience",
+      "prefLabel": "CTOs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/data_leaders",
+      "@type": "Audience",
+      "prefLabel": "data leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/delivery_leaders",
+      "@type": "Audience",
+      "prefLabel": "delivery leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/delivery_teams",
+      "@type": "Audience",
+      "prefLabel": "delivery teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/department_heads",
+      "@type": "Audience",
+      "prefLabel": "department heads",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/designers",
+      "@type": "Audience",
+      "prefLabel": "designers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/developers",
+      "@type": "Audience",
+      "prefLabel": "developers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/early_clients",
+      "@type": "Audience",
+      "prefLabel": "early clients",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/employees",
+      "@type": "Audience",
+      "prefLabel": "employees",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/enablement_functions",
+      "@type": "Audience",
+      "prefLabel": "enablement functions",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/end_users",
+      "@type": "Audience",
+      "prefLabel": "end users",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/enterprise_architects",
+      "@type": "Audience",
+      "prefLabel": "enterprise architects",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:audience/executives",
+      "@type": "Audience",
+      "prefLabel": "executives",
+      "frequency": 5,
+      "capabilityCount": 5
+    },
+    {
+      "@id": "acl:audience/firm_leadership",
+      "@type": "Audience",
+      "prefLabel": "firm leadership",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/founders",
+      "@type": "Audience",
+      "prefLabel": "founders",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:audience/growth_teams",
+      "@type": "Audience",
+      "prefLabel": "growth teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/industry_leaders",
+      "@type": "Audience",
+      "prefLabel": "industry leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/innovation_teams",
+      "@type": "Audience",
+      "prefLabel": "innovation teams",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:audience/investors",
+      "@type": "Audience",
+      "prefLabel": "investors",
+      "frequency": 4,
+      "capabilityCount": 4
+    },
+    {
+      "@id": "acl:audience/IT_teams",
+      "@type": "Audience",
+      "prefLabel": "IT teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/knowledge_managers",
+      "@type": "Audience",
+      "prefLabel": "knowledge managers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/leaders",
+      "@type": "Audience",
+      "prefLabel": "leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/legal_and_compliance_teams",
+      "@type": "Audience",
+      "prefLabel": "legal and compliance teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/managers",
+      "@type": "Audience",
+      "prefLabel": "managers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/market_audiences",
+      "@type": "Audience",
+      "prefLabel": "market audiences",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/offering_leaders",
+      "@type": "Audience",
+      "prefLabel": "offering leaders",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:audience/offering_teams",
+      "@type": "Audience",
+      "prefLabel": "offering teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/operating_partners",
+      "@type": "Audience",
+      "prefLabel": "operating partners",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:audience/operations_leaders",
+      "@type": "Audience",
+      "prefLabel": "operations leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/operators",
+      "@type": "Audience",
+      "prefLabel": "operators",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/PE_funds",
+      "@type": "Audience",
+      "prefLabel": "PE funds",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/PMO_teams",
+      "@type": "Audience",
+      "prefLabel": "PMO teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/policy_audiences",
+      "@type": "Audience",
+      "prefLabel": "policy audiences",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/portfolio_company_leaders",
+      "@type": "Audience",
+      "prefLabel": "portfolio company leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/practice_leaders",
+      "@type": "Audience",
+      "prefLabel": "practice leaders",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:audience/process_owners",
+      "@type": "Audience",
+      "prefLabel": "process owners",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/product_and_innovation_leaders",
+      "@type": "Audience",
+      "prefLabel": "product and innovation leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/product_leaders",
+      "@type": "Audience",
+      "prefLabel": "product leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/product_managers",
+      "@type": "Audience",
+      "prefLabel": "product managers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/product_owners",
+      "@type": "Audience",
+      "prefLabel": "product owners",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/product_teams",
+      "@type": "Audience",
+      "prefLabel": "product teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/QA_teams",
+      "@type": "Audience",
+      "prefLabel": "QA teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/quality_teams",
+      "@type": "Audience",
+      "prefLabel": "quality teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/researchers",
+      "@type": "Audience",
+      "prefLabel": "researchers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/risk_leaders",
+      "@type": "Audience",
+      "prefLabel": "risk leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/risk_teams",
+      "@type": "Audience",
+      "prefLabel": "risk teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/security-conscious_buyers",
+      "@type": "Audience",
+      "prefLabel": "security-conscious buyers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/sellers",
+      "@type": "Audience",
+      "prefLabel": "sellers",
+      "frequency": 5,
+      "capabilityCount": 5
+    },
+    {
+      "@id": "acl:audience/strategic_partners",
+      "@type": "Audience",
+      "prefLabel": "strategic partners",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/strategy_leaders",
+      "@type": "Audience",
+      "prefLabel": "strategy leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/strategy_teams",
+      "@type": "Audience",
+      "prefLabel": "strategy teams",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:audience/technical_founders",
+      "@type": "Audience",
+      "prefLabel": "technical founders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/transformation_leaders",
+      "@type": "Audience",
+      "prefLabel": "transformation leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/transformation_offices",
+      "@type": "Audience",
+      "prefLabel": "transformation offices",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/transformation_teams",
+      "@type": "Audience",
+      "prefLabel": "transformation teams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:audience/trust_and_safety_leaders",
+      "@type": "Audience",
+      "prefLabel": "trust and safety leaders",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/account_planning",
+      "@type": "Context",
+      "prefLabel": "account planning",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:context/account_targeting",
+      "@type": "Context",
+      "prefLabel": "account targeting",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/adjacent_business_lines",
+      "@type": "Context",
+      "prefLabel": "adjacent business lines",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/advisory_launch",
+      "@type": "Context",
+      "prefLabel": "advisory launch",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/advisory_product_development",
+      "@type": "Context",
+      "prefLabel": "advisory product development",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/agent_memory_design",
+      "@type": "Context",
+      "prefLabel": "agent memory design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/agentic_product_builds",
+      "@type": "Context",
+      "prefLabel": "agentic product builds",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/AI_adoption_programs",
+      "@type": "Context",
+      "prefLabel": "AI adoption programs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/AI_app_development",
+      "@type": "Context",
+      "prefLabel": "AI app development",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/AI_CoE_builds",
+      "@type": "Context",
+      "prefLabel": "AI CoE builds",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/AI_safety_research",
+      "@type": "Context",
+      "prefLabel": "AI safety research",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/AI_transformation",
+      "@type": "Context",
+      "prefLabel": "AI transformation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/assistant_development",
+      "@type": "Context",
+      "prefLabel": "assistant development",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/brand_building",
+      "@type": "Context",
+      "prefLabel": "brand building",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/business_development",
+      "@type": "Context",
+      "prefLabel": "business development",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:context/capability_mapping",
+      "@type": "Context",
+      "prefLabel": "capability mapping",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/CFO_conversations",
+      "@type": "Context",
+      "prefLabel": "CFO conversations",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/change_management",
+      "@type": "Context",
+      "prefLabel": "change management",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/commercialization_planning",
+      "@type": "Context",
+      "prefLabel": "commercialization planning",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/commercialization_programs",
+      "@type": "Context",
+      "prefLabel": "commercialization programs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/complex_change_programs",
+      "@type": "Context",
+      "prefLabel": "complex change programs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/consulting_portfolio_redesign",
+      "@type": "Context",
+      "prefLabel": "consulting portfolio redesign",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/consulting_team_training",
+      "@type": "Context",
+      "prefLabel": "consulting team training",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/data_harmonization",
+      "@type": "Context",
+      "prefLabel": "data harmonization",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/departmental_AI_deployment",
+      "@type": "Context",
+      "prefLabel": "departmental AI deployment",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/documentation_programs",
+      "@type": "Context",
+      "prefLabel": "documentation programs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/edge_environments",
+      "@type": "Context",
+      "prefLabel": "edge environments",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/enterprise_AI_adoption",
+      "@type": "Context",
+      "prefLabel": "enterprise AI adoption",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/enterprise_AI_deployment",
+      "@type": "Context",
+      "prefLabel": "enterprise AI deployment",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/enterprise_copilots",
+      "@type": "Context",
+      "prefLabel": "enterprise copilots",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/enterprise_enablement",
+      "@type": "Context",
+      "prefLabel": "enterprise enablement",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/enterprise_redesign",
+      "@type": "Context",
+      "prefLabel": "enterprise redesign",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/enterprise_risk_discussions",
+      "@type": "Context",
+      "prefLabel": "enterprise risk discussions",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/enterprise_transformation",
+      "@type": "Context",
+      "prefLabel": "enterprise transformation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/executive_briefings",
+      "@type": "Context",
+      "prefLabel": "executive briefings",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/executive_education",
+      "@type": "Context",
+      "prefLabel": "executive education",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/external_commercialization",
+      "@type": "Context",
+      "prefLabel": "external commercialization",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/GTM_modernization",
+      "@type": "Context",
+      "prefLabel": "GTM modernization",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/hybrid_enterprise_builds",
+      "@type": "Context",
+      "prefLabel": "hybrid enterprise builds",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/hybrid_runtime_environments",
+      "@type": "Context",
+      "prefLabel": "hybrid runtime environments",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/industry_strategy",
+      "@type": "Context",
+      "prefLabel": "industry strategy",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/innovation_programs",
+      "@type": "Context",
+      "prefLabel": "innovation programs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/internal_AI_tools",
+      "@type": "Context",
+      "prefLabel": "internal AI tools",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/internal_productization",
+      "@type": "Context",
+      "prefLabel": "internal productization",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/internal_tool_builds",
+      "@type": "Context",
+      "prefLabel": "internal tool builds",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/knowledge_architecture",
+      "@type": "Context",
+      "prefLabel": "knowledge architecture",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/leadership_development",
+      "@type": "Context",
+      "prefLabel": "leadership development",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/local-first_deployments",
+      "@type": "Context",
+      "prefLabel": "local-first deployments",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/market_education",
+      "@type": "Context",
+      "prefLabel": "market education",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/market_expansion",
+      "@type": "Context",
+      "prefLabel": "market expansion",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/model_oversight",
+      "@type": "Context",
+      "prefLabel": "model oversight",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/multi-agent_platforms",
+      "@type": "Context",
+      "prefLabel": "multi-agent platforms",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/multi-agent_systems",
+      "@type": "Context",
+      "prefLabel": "multi-agent systems",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/multi-industry_consulting",
+      "@type": "Context",
+      "prefLabel": "multi-industry consulting",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/new_venture_design",
+      "@type": "Context",
+      "prefLabel": "new venture design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/offering_design",
+      "@type": "Context",
+      "prefLabel": "offering design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/on-prem_deployments",
+      "@type": "Context",
+      "prefLabel": "on-prem deployments",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/operating_model_design",
+      "@type": "Context",
+      "prefLabel": "operating model design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/operating_model_redesign",
+      "@type": "Context",
+      "prefLabel": "operating model redesign",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/operating_partner_work",
+      "@type": "Context",
+      "prefLabel": "operating partner work",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/operational_diagnostics",
+      "@type": "Context",
+      "prefLabel": "operational diagnostics",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/output_review",
+      "@type": "Context",
+      "prefLabel": "output review",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/PE_diligence",
+      "@type": "Context",
+      "prefLabel": "PE diligence",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/pipeline_development",
+      "@type": "Context",
+      "prefLabel": "pipeline development",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/policy_work",
+      "@type": "Context",
+      "prefLabel": "policy work",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/portfolio_design",
+      "@type": "Context",
+      "prefLabel": "portfolio design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/portfolio_strategy",
+      "@type": "Context",
+      "prefLabel": "portfolio strategy",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/practice_strategy",
+      "@type": "Context",
+      "prefLabel": "practice strategy",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/private_installations",
+      "@type": "Context",
+      "prefLabel": "private installations",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/process_improvement",
+      "@type": "Context",
+      "prefLabel": "process improvement",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/proposal_shaping",
+      "@type": "Context",
+      "prefLabel": "proposal shaping",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/prototype_handoffs",
+      "@type": "Context",
+      "prefLabel": "prototype handoffs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/public_thought_leadership",
+      "@type": "Context",
+      "prefLabel": "public thought leadership",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/publication",
+      "@type": "Context",
+      "prefLabel": "publication",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/pursuit_prep",
+      "@type": "Context",
+      "prefLabel": "pursuit prep",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/pursuit_strategy",
+      "@type": "Context",
+      "prefLabel": "pursuit strategy",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/pursuits",
+      "@type": "Context",
+      "prefLabel": "pursuits",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/quality_management",
+      "@type": "Context",
+      "prefLabel": "quality management",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/RAG_systems",
+      "@type": "Context",
+      "prefLabel": "RAG systems",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/rapid_prototyping",
+      "@type": "Context",
+      "prefLabel": "rapid prototyping",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/regulated_environments",
+      "@type": "Context",
+      "prefLabel": "regulated environments",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/regulated_workflows",
+      "@type": "Context",
+      "prefLabel": "regulated workflows",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/relationship_expansion",
+      "@type": "Context",
+      "prefLabel": "relationship expansion",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/sales_conversations",
+      "@type": "Context",
+      "prefLabel": "sales conversations",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/sales_enablement",
+      "@type": "Context",
+      "prefLabel": "sales enablement",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:context/service_catalog_creation",
+      "@type": "Context",
+      "prefLabel": "service catalog creation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/service_delivery_design",
+      "@type": "Context",
+      "prefLabel": "service delivery design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/solution_design",
+      "@type": "Context",
+      "prefLabel": "solution design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/solution_incubation",
+      "@type": "Context",
+      "prefLabel": "solution incubation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/startup_creation",
+      "@type": "Context",
+      "prefLabel": "startup creation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/studio_models",
+      "@type": "Context",
+      "prefLabel": "studio models",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/system-of-systems_design",
+      "@type": "Context",
+      "prefLabel": "system-of-systems design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/transformation_initiatives",
+      "@type": "Context",
+      "prefLabel": "transformation initiatives",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/transformation_planning",
+      "@type": "Context",
+      "prefLabel": "transformation planning",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/transformation_programs",
+      "@type": "Context",
+      "prefLabel": "transformation programs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/trust_and_safety_strategy",
+      "@type": "Context",
+      "prefLabel": "trust and safety strategy",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:context/vertical_GTM",
+      "@type": "Context",
+      "prefLabel": "vertical GTM",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/accounts",
+      "@type": "Object",
+      "prefLabel": "accounts",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/agent_behaviors",
+      "@type": "Object",
+      "prefLabel": "agent behaviors",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/agent_systems",
+      "@type": "Object",
+      "prefLabel": "agent systems",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/AI_products",
+      "@type": "Object",
+      "prefLabel": "AI products",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/app_flows",
+      "@type": "Object",
+      "prefLabel": "app flows",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/articles",
+      "@type": "Object",
+      "prefLabel": "articles",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/assistants",
+      "@type": "Object",
+      "prefLabel": "assistants",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/behavioral_risks",
+      "@type": "Object",
+      "prefLabel": "behavioral risks",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/behaviors",
+      "@type": "Object",
+      "prefLabel": "behaviors",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/brands",
+      "@type": "Object",
+      "prefLabel": "brands",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/build_specs",
+      "@type": "Object",
+      "prefLabel": "build specs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/business_strategy",
+      "@type": "Object",
+      "prefLabel": "business strategy",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/buyer_narratives",
+      "@type": "Object",
+      "prefLabel": "buyer narratives",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/buyers",
+      "@type": "Object",
+      "prefLabel": "buyers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/capabilities",
+      "@type": "Object",
+      "prefLabel": "capabilities",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/commercialization_paths",
+      "@type": "Object",
+      "prefLabel": "commercialization paths",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/competitors",
+      "@type": "Object",
+      "prefLabel": "competitors",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/configurations",
+      "@type": "Object",
+      "prefLabel": "configurations",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/containers",
+      "@type": "Object",
+      "prefLabel": "containers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/control_layers",
+      "@type": "Object",
+      "prefLabel": "control layers",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:object/control_planes",
+      "@type": "Object",
+      "prefLabel": "control planes",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/controls",
+      "@type": "Object",
+      "prefLabel": "controls",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/conversation_paths",
+      "@type": "Object",
+      "prefLabel": "conversation paths",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/cost_structures",
+      "@type": "Object",
+      "prefLabel": "cost structures",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/decision_rights",
+      "@type": "Object",
+      "prefLabel": "decision rights",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/entities",
+      "@type": "Object",
+      "prefLabel": "entities",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/financial_logic",
+      "@type": "Object",
+      "prefLabel": "financial logic",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/frameworks",
+      "@type": "Object",
+      "prefLabel": "frameworks",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/governance_structures",
+      "@type": "Object",
+      "prefLabel": "governance structures",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/handoffs",
+      "@type": "Object",
+      "prefLabel": "handoffs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/hybrid_architectures",
+      "@type": "Object",
+      "prefLabel": "hybrid architectures",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/industry_events",
+      "@type": "Object",
+      "prefLabel": "industry events",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/knowledge_libraries",
+      "@type": "Object",
+      "prefLabel": "knowledge libraries",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/local_compute_environments",
+      "@type": "Object",
+      "prefLabel": "local compute environments",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/markets",
+      "@type": "Object",
+      "prefLabel": "markets",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/memory_layers",
+      "@type": "Object",
+      "prefLabel": "memory layers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/messages",
+      "@type": "Object",
+      "prefLabel": "messages",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:object/metadata",
+      "@type": "Object",
+      "prefLabel": "metadata",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/mindsets",
+      "@type": "Object",
+      "prefLabel": "mindsets",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/misuse_scenarios",
+      "@type": "Object",
+      "prefLabel": "misuse scenarios",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/offerings",
+      "@type": "Object",
+      "prefLabel": "offerings",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:object/ontologies",
+      "@type": "Object",
+      "prefLabel": "ontologies",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/operating_metrics",
+      "@type": "Object",
+      "prefLabel": "operating metrics",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/operating_models",
+      "@type": "Object",
+      "prefLabel": "operating models",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/opportunities",
+      "@type": "Object",
+      "prefLabel": "opportunities",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/orchestrators",
+      "@type": "Object",
+      "prefLabel": "orchestrators",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/outputs",
+      "@type": "Object",
+      "prefLabel": "outputs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/portfolio_initiatives",
+      "@type": "Object",
+      "prefLabel": "portfolio initiatives",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/POVs",
+      "@type": "Object",
+      "prefLabel": "POVs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/processes",
+      "@type": "Object",
+      "prefLabel": "processes",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/products",
+      "@type": "Object",
+      "prefLabel": "products",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/prompts",
+      "@type": "Object",
+      "prefLabel": "prompts",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/proof_points",
+      "@type": "Object",
+      "prefLabel": "proof points",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/prototypes",
+      "@type": "Object",
+      "prefLabel": "prototypes",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/quality_criteria",
+      "@type": "Object",
+      "prefLabel": "quality criteria",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/relationship_networks",
+      "@type": "Object",
+      "prefLabel": "relationship networks",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/relationships",
+      "@type": "Object",
+      "prefLabel": "relationships",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/revenue_drivers",
+      "@type": "Object",
+      "prefLabel": "revenue drivers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/revenue_models",
+      "@type": "Object",
+      "prefLabel": "revenue models",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/review_paths",
+      "@type": "Object",
+      "prefLabel": "review paths",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/risk_types",
+      "@type": "Object",
+      "prefLabel": "risk types",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/roadmaps",
+      "@type": "Object",
+      "prefLabel": "roadmaps",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/roles",
+      "@type": "Object",
+      "prefLabel": "roles",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:object/runtime_layers",
+      "@type": "Object",
+      "prefLabel": "runtime layers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/runtimes",
+      "@type": "Object",
+      "prefLabel": "runtimes",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/safety_gaps",
+      "@type": "Object",
+      "prefLabel": "safety gaps",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/service_modules",
+      "@type": "Object",
+      "prefLabel": "service modules",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/services",
+      "@type": "Object",
+      "prefLabel": "services",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/skills",
+      "@type": "Object",
+      "prefLabel": "skills",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:object/solution_components",
+      "@type": "Object",
+      "prefLabel": "solution components",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/solution_concepts",
+      "@type": "Object",
+      "prefLabel": "solution concepts",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/storage_layers",
+      "@type": "Object",
+      "prefLabel": "storage layers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/strategic_issues",
+      "@type": "Object",
+      "prefLabel": "strategic issues",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/strategic_narratives",
+      "@type": "Object",
+      "prefLabel": "strategic narratives",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/strategic_signals",
+      "@type": "Object",
+      "prefLabel": "strategic signals",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/subprocesses",
+      "@type": "Object",
+      "prefLabel": "subprocesses",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/system_prompts",
+      "@type": "Object",
+      "prefLabel": "system prompts",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/talk_tracks",
+      "@type": "Object",
+      "prefLabel": "talk tracks",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/taxonomies",
+      "@type": "Object",
+      "prefLabel": "taxonomies",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/technical_systems",
+      "@type": "Object",
+      "prefLabel": "technical systems",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/templates",
+      "@type": "Object",
+      "prefLabel": "templates",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/threat_patterns",
+      "@type": "Object",
+      "prefLabel": "threat patterns",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/toolchains",
+      "@type": "Object",
+      "prefLabel": "toolchains",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/training_materials",
+      "@type": "Object",
+      "prefLabel": "training materials",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/trends",
+      "@type": "Object",
+      "prefLabel": "trends",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/use_cases",
+      "@type": "Object",
+      "prefLabel": "use cases",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/UX_logic",
+      "@type": "Object",
+      "prefLabel": "UX logic",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/value_levers",
+      "@type": "Object",
+      "prefLabel": "value levers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/value_propositions",
+      "@type": "Object",
+      "prefLabel": "value propositions",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/value_stories",
+      "@type": "Object",
+      "prefLabel": "value stories",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/ventures",
+      "@type": "Object",
+      "prefLabel": "ventures",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/vulnerabilities",
+      "@type": "Object",
+      "prefLabel": "vulnerabilities",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/white_papers",
+      "@type": "Object",
+      "prefLabel": "white papers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/workflow_chains",
+      "@type": "Object",
+      "prefLabel": "workflow chains",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:object/workflows",
+      "@type": "Object",
+      "prefLabel": "workflows",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/behavior_change",
+      "@type": "Outcome",
+      "prefLabel": "behavior change",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_accountability",
+      "@type": "Outcome",
+      "prefLabel": "better accountability",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_assistant_quality",
+      "@type": "Outcome",
+      "prefLabel": "better assistant quality",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_build_quality",
+      "@type": "Outcome",
+      "prefLabel": "better build quality",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_buyer_resonance",
+      "@type": "Outcome",
+      "prefLabel": "better buyer resonance",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_cross-sell",
+      "@type": "Outcome",
+      "prefLabel": "better cross-sell",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_decision-making",
+      "@type": "Outcome",
+      "prefLabel": "better decision-making",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_investment_narrative",
+      "@type": "Outcome",
+      "prefLabel": "better investment narrative",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_market_access",
+      "@type": "Outcome",
+      "prefLabel": "better market access",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_monetization",
+      "@type": "Outcome",
+      "prefLabel": "better monetization",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_preparedness",
+      "@type": "Outcome",
+      "prefLabel": "better preparedness",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_relevance",
+      "@type": "Outcome",
+      "prefLabel": "better relevance",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_retrieval",
+      "@type": "Outcome",
+      "prefLabel": "better retrieval",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_situational_awareness",
+      "@type": "Outcome",
+      "prefLabel": "better situational awareness",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/better_targeting",
+      "@type": "Outcome",
+      "prefLabel": "better targeting",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/cleaner_structure",
+      "@type": "Outcome",
+      "prefLabel": "cleaner structure",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clear_accountability",
+      "@type": "Outcome",
+      "prefLabel": "clear accountability",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clear_market_identity",
+      "@type": "Outcome",
+      "prefLabel": "clear market identity",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clear_remediation",
+      "@type": "Outcome",
+      "prefLabel": "clear remediation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clear_value_thesis",
+      "@type": "Outcome",
+      "prefLabel": "clear value thesis",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clearer_developer_handoff",
+      "@type": "Outcome",
+      "prefLabel": "clearer developer handoff",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clearer_messaging",
+      "@type": "Outcome",
+      "prefLabel": "clearer messaging",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clearer_narratives",
+      "@type": "Outcome",
+      "prefLabel": "clearer narratives",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clearer_portfolio",
+      "@type": "Outcome",
+      "prefLabel": "clearer portfolio",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clearer_risk_posture",
+      "@type": "Outcome",
+      "prefLabel": "clearer risk posture",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/clearer_roadmap",
+      "@type": "Outcome",
+      "prefLabel": "clearer roadmap",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/competitive_clarity",
+      "@type": "Outcome",
+      "prefLabel": "competitive clarity",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/consistent_delivery",
+      "@type": "Outcome",
+      "prefLabel": "consistent delivery",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/coordinated_execution",
+      "@type": "Outcome",
+      "prefLabel": "coordinated execution",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/cross-functional_alignment",
+      "@type": "Outcome",
+      "prefLabel": "cross-functional alignment",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/demand_creation",
+      "@type": "Outcome",
+      "prefLabel": "demand creation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/deployment_control",
+      "@type": "Outcome",
+      "prefLabel": "deployment control",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/differentiated_safety_perspective",
+      "@type": "Outcome",
+      "prefLabel": "differentiated safety perspective",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/easier_selling",
+      "@type": "Outcome",
+      "prefLabel": "easier selling",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/ecosystem_leverage",
+      "@type": "Outcome",
+      "prefLabel": "ecosystem leverage",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/efficiency_improvement",
+      "@type": "Outcome",
+      "prefLabel": "efficiency improvement",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/enterprise-grade_performance",
+      "@type": "Outcome",
+      "prefLabel": "enterprise-grade performance",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/executive_understanding",
+      "@type": "Outcome",
+      "prefLabel": "executive understanding",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/faster_execution",
+      "@type": "Outcome",
+      "prefLabel": "faster execution",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/faster_prototyping",
+      "@type": "Outcome",
+      "prefLabel": "faster prototyping",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/faster_validation",
+      "@type": "Outcome",
+      "prefLabel": "faster validation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/greater_controllability",
+      "@type": "Outcome",
+      "prefLabel": "greater controllability",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/greater_differentiation",
+      "@type": "Outcome",
+      "prefLabel": "greater differentiation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/greater_privacy",
+      "@type": "Outcome",
+      "prefLabel": "greater privacy",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/greater_trust",
+      "@type": "Outcome",
+      "prefLabel": "greater trust",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/higher_AI_fluency",
+      "@type": "Outcome",
+      "prefLabel": "higher AI fluency",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/higher_conversion_quality",
+      "@type": "Outcome",
+      "prefLabel": "higher conversion quality",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/higher_cross-sell_potential",
+      "@type": "Outcome",
+      "prefLabel": "higher cross-sell potential",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/higher_implementation_feasibility",
+      "@type": "Outcome",
+      "prefLabel": "higher implementation feasibility",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/higher_output_quality",
+      "@type": "Outcome",
+      "prefLabel": "higher output quality",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/identified_pain_points",
+      "@type": "Outcome",
+      "prefLabel": "identified pain points",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/improved_confidence",
+      "@type": "Outcome",
+      "prefLabel": "improved confidence",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/improved_resonance",
+      "@type": "Outcome",
+      "prefLabel": "improved resonance",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/improved_task_completion",
+      "@type": "Outcome",
+      "prefLabel": "improved task completion",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/improved_win_support",
+      "@type": "Outcome",
+      "prefLabel": "improved win support",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/interoperability",
+      "@type": "Outcome",
+      "prefLabel": "interoperability",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/lower_ambiguity",
+      "@type": "Outcome",
+      "prefLabel": "lower ambiguity",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/lower_cloud_dependence",
+      "@type": "Outcome",
+      "prefLabel": "lower cloud dependence",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/lower_fragility",
+      "@type": "Outcome",
+      "prefLabel": "lower fragility",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/lower_fragmentation",
+      "@type": "Outcome",
+      "prefLabel": "lower fragmentation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/lower_risk",
+      "@type": "Outcome",
+      "prefLabel": "lower risk",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/market_differentiation",
+      "@type": "Outcome",
+      "prefLabel": "market differentiation",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/measurable_impact",
+      "@type": "Outcome",
+      "prefLabel": "measurable impact",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/more_informed_decisions",
+      "@type": "Outcome",
+      "prefLabel": "more informed decisions",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/more_relevant_pursuits",
+      "@type": "Outcome",
+      "prefLabel": "more relevant pursuits",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/more_reliable_outputs",
+      "@type": "Outcome",
+      "prefLabel": "more reliable outputs",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/new_revenue_streams",
+      "@type": "Outcome",
+      "prefLabel": "new revenue streams",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/operating_leverage",
+      "@type": "Outcome",
+      "prefLabel": "operating leverage",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/operational_durability",
+      "@type": "Outcome",
+      "prefLabel": "operational durability",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/pipeline_growth",
+      "@type": "Outcome",
+      "prefLabel": "pipeline growth",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/process_clarity",
+      "@type": "Outcome",
+      "prefLabel": "process clarity",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/reduced_ambiguity",
+      "@type": "Outcome",
+      "prefLabel": "reduced ambiguity",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/reduced_genericity",
+      "@type": "Outcome",
+      "prefLabel": "reduced genericity",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/reduced_resistance",
+      "@type": "Outcome",
+      "prefLabel": "reduced resistance",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/repeatable_deployment",
+      "@type": "Outcome",
+      "prefLabel": "repeatable deployment",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/reusable_enterprise_intelligence",
+      "@type": "Outcome",
+      "prefLabel": "reusable enterprise intelligence",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/reusable_patterns",
+      "@type": "Outcome",
+      "prefLabel": "reusable patterns",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/safer_design",
+      "@type": "Outcome",
+      "prefLabel": "safer design",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/scalable_IP_platform",
+      "@type": "Outcome",
+      "prefLabel": "scalable IP platform",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/scalable_offers",
+      "@type": "Outcome",
+      "prefLabel": "scalable offers",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/sharper_positioning",
+      "@type": "Outcome",
+      "prefLabel": "sharper positioning",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/smoother_execution",
+      "@type": "Outcome",
+      "prefLabel": "smoother execution",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/standardization",
+      "@type": "Outcome",
+      "prefLabel": "standardization",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/strategic_coherence",
+      "@type": "Outcome",
+      "prefLabel": "strategic coherence",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_account_plans",
+      "@type": "Outcome",
+      "prefLabel": "stronger account plans",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_adoption",
+      "@type": "Outcome",
+      "prefLabel": "stronger adoption",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_controls",
+      "@type": "Outcome",
+      "prefLabel": "stronger controls",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_credibility",
+      "@type": "Outcome",
+      "prefLabel": "stronger credibility",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_delivery_consistency",
+      "@type": "Outcome",
+      "prefLabel": "stronger delivery consistency",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_industry_fit",
+      "@type": "Outcome",
+      "prefLabel": "stronger industry fit",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_monetization",
+      "@type": "Outcome",
+      "prefLabel": "stronger monetization",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_prioritization",
+      "@type": "Outcome",
+      "prefLabel": "stronger prioritization",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_product-market_fit",
+      "@type": "Outcome",
+      "prefLabel": "stronger product-market fit",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_pursuit_discipline",
+      "@type": "Outcome",
+      "prefLabel": "stronger pursuit discipline",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_reasoning",
+      "@type": "Outcome",
+      "prefLabel": "stronger reasoning",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_recommendations",
+      "@type": "Outcome",
+      "prefLabel": "stronger recommendations",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_safeguards",
+      "@type": "Outcome",
+      "prefLabel": "stronger safeguards",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/stronger_usability",
+      "@type": "Outcome",
+      "prefLabel": "stronger usability",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/training-ready_artifacts",
+      "@type": "Outcome",
+      "prefLabel": "training-ready artifacts",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:outcome/vendor_flexibility",
+      "@type": "Outcome",
+      "prefLabel": "vendor flexibility",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/accessible",
+      "@type": "Qualification",
+      "prefLabel": "accessible",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/account-specific",
+      "@type": "Qualification",
+      "prefLabel": "account-specific",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/action-oriented",
+      "@type": "Qualification",
+      "prefLabel": "action-oriented",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/adoption-focused",
+      "@type": "Qualification",
+      "prefLabel": "adoption-focused",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/AI-native",
+      "@type": "Qualification",
+      "prefLabel": "AI-native",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/analytically_rigorous",
+      "@type": "Qualification",
+      "prefLabel": "analytically rigorous",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/auditable",
+      "@type": "Qualification",
+      "prefLabel": "auditable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/behavior-oriented",
+      "@type": "Qualification",
+      "prefLabel": "behavior-oriented",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/buyer-aware",
+      "@type": "Qualification",
+      "prefLabel": "buyer-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/buyer-relevant",
+      "@type": "Qualification",
+      "prefLabel": "buyer-relevant",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/buyer-specific",
+      "@type": "Qualification",
+      "prefLabel": "buyer-specific",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/clear",
+      "@type": "Qualification",
+      "prefLabel": "clear",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/commercially_actionable",
+      "@type": "Qualification",
+      "prefLabel": "commercially actionable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/commercially_sharp",
+      "@type": "Qualification",
+      "prefLabel": "commercially sharp",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/commercially_useful",
+      "@type": "Qualification",
+      "prefLabel": "commercially useful",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/context-aware",
+      "@type": "Qualification",
+      "prefLabel": "context-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/credible",
+      "@type": "Qualification",
+      "prefLabel": "credible",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/cross-functional",
+      "@type": "Qualification",
+      "prefLabel": "cross-functional",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/current",
+      "@type": "Qualification",
+      "prefLabel": "current",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/decision-relevant",
+      "@type": "Qualification",
+      "prefLabel": "decision-relevant",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/delivery-aware",
+      "@type": "Qualification",
+      "prefLabel": "delivery-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/detailed",
+      "@type": "Qualification",
+      "prefLabel": "detailed",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/developer-usable",
+      "@type": "Qualification",
+      "prefLabel": "developer-usable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/differentiated",
+      "@type": "Qualification",
+      "prefLabel": "differentiated",
+      "frequency": 3,
+      "capabilityCount": 3
+    },
+    {
+      "@id": "acl:qualification/distinctive",
+      "@type": "Qualification",
+      "prefLabel": "distinctive",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/durable",
+      "@type": "Qualification",
+      "prefLabel": "durable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/EBITDA-linked",
+      "@type": "Qualification",
+      "prefLabel": "EBITDA-linked",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/economically_grounded",
+      "@type": "Qualification",
+      "prefLabel": "economically grounded",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/economically_rigorous",
+      "@type": "Qualification",
+      "prefLabel": "economically rigorous",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/enterprise-grade",
+      "@type": "Qualification",
+      "prefLabel": "enterprise-grade",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/entrepreneurial",
+      "@type": "Qualification",
+      "prefLabel": "entrepreneurial",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/ethically_grounded",
+      "@type": "Qualification",
+      "prefLabel": "ethically grounded",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/evidence-backed",
+      "@type": "Qualification",
+      "prefLabel": "evidence-backed",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/evidence-based",
+      "@type": "Qualification",
+      "prefLabel": "evidence-based",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/executive-legible",
+      "@type": "Qualification",
+      "prefLabel": "executive-legible",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/explainable",
+      "@type": "Qualification",
+      "prefLabel": "explainable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/extensible",
+      "@type": "Qualification",
+      "prefLabel": "extensible",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/governable",
+      "@type": "Qualification",
+      "prefLabel": "governable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/governance-ready",
+      "@type": "Qualification",
+      "prefLabel": "governance-ready",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/high-signal",
+      "@type": "Qualification",
+      "prefLabel": "high-signal",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/implementation-ready",
+      "@type": "Qualification",
+      "prefLabel": "implementation-ready",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/improvement-oriented",
+      "@type": "Qualification",
+      "prefLabel": "improvement-oriented",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/industry-specific",
+      "@type": "Qualification",
+      "prefLabel": "industry-specific",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/internally_coherent",
+      "@type": "Qualification",
+      "prefLabel": "internally coherent",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/investor-legible",
+      "@type": "Qualification",
+      "prefLabel": "investor-legible",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/issue-led",
+      "@type": "Qualification",
+      "prefLabel": "issue-led",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/local-first",
+      "@type": "Qualification",
+      "prefLabel": "local-first",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/low-dependency",
+      "@type": "Qualification",
+      "prefLabel": "low-dependency",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/machine-readable",
+      "@type": "Qualification",
+      "prefLabel": "machine-readable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/market-aware",
+      "@type": "Qualification",
+      "prefLabel": "market-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/market-oriented",
+      "@type": "Qualification",
+      "prefLabel": "market-oriented",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/measurable",
+      "@type": "Qualification",
+      "prefLabel": "measurable",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/modular",
+      "@type": "Qualification",
+      "prefLabel": "modular",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/monetizable",
+      "@type": "Qualification",
+      "prefLabel": "monetizable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/non-generic",
+      "@type": "Qualification",
+      "prefLabel": "non-generic",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/nuance-aware",
+      "@type": "Qualification",
+      "prefLabel": "nuance-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/nuanced",
+      "@type": "Qualification",
+      "prefLabel": "nuanced",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/operationally_grounded",
+      "@type": "Qualification",
+      "prefLabel": "operationally grounded",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/original",
+      "@type": "Qualification",
+      "prefLabel": "original",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/outcome-oriented",
+      "@type": "Qualification",
+      "prefLabel": "outcome-oriented",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/persuasive",
+      "@type": "Qualification",
+      "prefLabel": "persuasive",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/platform-aware",
+      "@type": "Qualification",
+      "prefLabel": "platform-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/policy-aware",
+      "@type": "Qualification",
+      "prefLabel": "policy-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/portable",
+      "@type": "Qualification",
+      "prefLabel": "portable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/practical",
+      "@type": "Qualification",
+      "prefLabel": "practical",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/precise",
+      "@type": "Qualification",
+      "prefLabel": "precise",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/quality-controlled",
+      "@type": "Qualification",
+      "prefLabel": "quality-controlled",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/readable",
+      "@type": "Qualification",
+      "prefLabel": "readable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/repeatable",
+      "@type": "Qualification",
+      "prefLabel": "repeatable",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/resilient",
+      "@type": "Qualification",
+      "prefLabel": "resilient",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/reusable",
+      "@type": "Qualification",
+      "prefLabel": "reusable",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/rigorous",
+      "@type": "Qualification",
+      "prefLabel": "rigorous",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/risk-sensitive",
+      "@type": "Qualification",
+      "prefLabel": "risk-sensitive",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/role-clear",
+      "@type": "Qualification",
+      "prefLabel": "role-clear",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/safety-aware",
+      "@type": "Qualification",
+      "prefLabel": "safety-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/scalable",
+      "@type": "Qualification",
+      "prefLabel": "scalable",
+      "frequency": 4,
+      "capabilityCount": 4
+    },
+    {
+      "@id": "acl:qualification/scenario-based",
+      "@type": "Qualification",
+      "prefLabel": "scenario-based",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/secure",
+      "@type": "Qualification",
+      "prefLabel": "secure",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/semantically_consistent",
+      "@type": "Qualification",
+      "prefLabel": "semantically consistent",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/strategically_aligned",
+      "@type": "Qualification",
+      "prefLabel": "strategically aligned",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/strategically_coherent",
+      "@type": "Qualification",
+      "prefLabel": "strategically coherent",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/structured",
+      "@type": "Qualification",
+      "prefLabel": "structured",
+      "frequency": 2,
+      "capabilityCount": 2
+    },
+    {
+      "@id": "acl:qualification/systems-level",
+      "@type": "Qualification",
+      "prefLabel": "systems-level",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/taxonomy-aligned",
+      "@type": "Qualification",
+      "prefLabel": "taxonomy-aligned",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/traceable",
+      "@type": "Qualification",
+      "prefLabel": "traceable",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:qualification/workflow-aware",
+      "@type": "Qualification",
+      "prefLabel": "workflow-aware",
+      "frequency": 1,
+      "capabilityCount": 1
+    },
+    {
+      "@id": "acl:C01",
+      "@type": "Capability",
+      "identifier": "C01",
+      "name": "Agentic enterprise architecture / AgentOS design",
+      "description": "Designs modular, governable enterprise agent systems that connect orchestration, memory, control, and deployment.",
+      "belongsToCluster": "acl:cluster/Architecture",
+      "inZone": "acl:zone/Core_signature",
+      "strengthIndex": 10,
+      "depth": 10,
+      "breadth": 10,
+      "differentiation": 10,
+      "hasAction": [
+        "acl:action/architect",
+        "acl:action/orchestrate",
+        "acl:action/modularize",
+        "acl:action/govern",
+        "acl:action/instrument"
+      ],
+      "hasObject": [
+        "acl:object/agent_systems",
+        "acl:object/orchestrators",
+        "acl:object/runtime_layers",
+        "acl:object/memory_layers",
+        "acl:object/control_planes"
+      ],
+      "hasQualification": [
+        "acl:qualification/modular",
+        "acl:qualification/enterprise-grade",
+        "acl:qualification/governable",
+        "acl:qualification/scalable",
+        "acl:qualification/resilient"
+      ],
+      "hasContext": [
+        "acl:context/enterprise_transformation",
+        "acl:context/multi-agent_platforms",
+        "acl:context/hybrid_runtime_environments",
+        "acl:context/local-first_deployments",
+        "acl:context/system-of-systems_design"
+      ],
+      "hasOutcome": [
+        "acl:outcome/coordinated_execution",
+        "acl:outcome/greater_controllability",
+        "acl:outcome/repeatable_deployment",
+        "acl:outcome/lower_fragility",
+        "acl:outcome/enterprise-grade_performance"
+      ],
+      "hasAudience": [
+        "acl:audience/cios",
+        "acl:audience/ctos",
+        "acl:audience/ai_leaders",
+        "acl:audience/enterprise_architects",
+        "acl:audience/product_and_innovation_leaders"
+      ],
+      "hasStatement": [
+        "acl:statement/S0001",
+        "acl:statement/S0002",
+        "acl:statement/S0003"
+      ]
+    },
+    {
+      "@id": "acl:C02",
+      "@type": "Capability",
+      "identifier": "C02",
+      "name": "Meta-architecture / synthesis across strategy, tech, finance, and operations",
+      "description": "Integrates strategic, technical, financial, operational, and governance perspectives into one coherent system model.",
+      "belongsToCluster": "acl:cluster/Meta-synthesis",
+      "inZone": "acl:zone/Core_signature",
+      "strengthIndex": 10,
+      "depth": 10,
+      "breadth": 10,
+      "differentiation": 10,
+      "hasAction": [
+        "acl:action/synthesize",
+        "acl:action/connect",
+        "acl:action/translate",
+        "acl:action/integrate",
+        "acl:action/reconcile"
+      ],
+      "hasObject": [
+        "acl:object/business_strategy",
+        "acl:object/technical_systems",
+        "acl:object/financial_logic",
+        "acl:object/operating_models",
+        "acl:object/governance_structures"
+      ],
+      "hasQualification": [
+        "acl:qualification/systems-level",
+        "acl:qualification/cross-functional",
+        "acl:qualification/economically_grounded",
+        "acl:qualification/executive-legible",
+        "acl:qualification/internally_coherent"
+      ],
+      "hasContext": [
+        "acl:context/enterprise_redesign",
+        "acl:context/ai_transformation",
+        "acl:context/commercialization_planning",
+        "acl:context/operating_model_design",
+        "acl:context/complex_change_programs"
+      ],
+      "hasOutcome": [
+        "acl:outcome/strategic_coherence",
+        "acl:outcome/cross-functional_alignment",
+        "acl:outcome/better_decision-making",
+        "acl:outcome/lower_fragmentation",
+        "acl:outcome/higher_implementation_feasibility"
+      ],
+      "hasAudience": [
+        "acl:audience/executives",
+        "acl:audience/transformation_leaders",
+        "acl:audience/strategy_teams",
+        "acl:audience/board_stakeholders",
+        "acl:audience/operating_partners"
+      ],
+      "hasStatement": [
+        "acl:statement/S0004",
+        "acl:statement/S0005",
+        "acl:statement/S0006"
+      ]
+    },
+    {
+      "@id": "acl:C03",
+      "@type": "Capability",
+      "identifier": "C03",
+      "name": "AI operating model design",
+      "description": "Structures how AI and agents are owned, governed, reviewed, and operated inside real organizations.",
+      "belongsToCluster": "acl:cluster/Architecture",
+      "inZone": "acl:zone/Core_signature",
+      "strengthIndex": 9.4,
+      "depth": 10,
+      "breadth": 9,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/define",
+        "acl:action/structure",
+        "acl:action/assign",
+        "acl:action/standardize",
+        "acl:action/monitor"
+      ],
+      "hasObject": [
+        "acl:object/roles",
+        "acl:object/workflows",
+        "acl:object/decision_rights",
+        "acl:object/review_paths",
+        "acl:object/control_layers"
+      ],
+      "hasQualification": [
+        "acl:qualification/scalable",
+        "acl:qualification/measurable",
+        "acl:qualification/role-clear",
+        "acl:qualification/policy-aware",
+        "acl:qualification/implementation-ready"
+      ],
+      "hasContext": [
+        "acl:context/enterprise_ai_adoption",
+        "acl:context/ai_coe_builds",
+        "acl:context/operating_model_redesign",
+        "acl:context/departmental_ai_deployment",
+        "acl:context/transformation_programs"
+      ],
+      "hasOutcome": [
+        "acl:outcome/clear_accountability",
+        "acl:outcome/smoother_execution",
+        "acl:outcome/stronger_controls",
+        "acl:outcome/lower_ambiguity",
+        "acl:outcome/consistent_delivery"
+      ],
+      "hasAudience": [
+        "acl:audience/coos",
+        "acl:audience/caios",
+        "acl:audience/ai_pmo_leaders",
+        "acl:audience/department_heads",
+        "acl:audience/transformation_teams"
+      ],
+      "hasStatement": [
+        "acl:statement/S0007",
+        "acl:statement/S0008",
+        "acl:statement/S0009"
+      ]
+    },
+    {
+      "@id": "acl:C04",
+      "@type": "Capability",
+      "identifier": "C04",
+      "name": "Consulting offering architecture / service catalog design",
+      "description": "Turns capabilities into structured offerings, modules, and service catalogs that are sellable and repeatable.",
+      "belongsToCluster": "acl:cluster/Commercialization",
+      "inZone": "acl:zone/Core_signature",
+      "strengthIndex": 9.4,
+      "depth": 10,
+      "breadth": 9,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/define",
+        "acl:action/package",
+        "acl:action/tier",
+        "acl:action/map",
+        "acl:action/differentiate"
+      ],
+      "hasObject": [
+        "acl:object/offerings",
+        "acl:object/service_modules",
+        "acl:object/capabilities",
+        "acl:object/skills",
+        "acl:object/value_propositions"
+      ],
+      "hasQualification": [
+        "acl:qualification/buyer-relevant",
+        "acl:qualification/repeatable",
+        "acl:qualification/delivery-aware",
+        "acl:qualification/differentiated",
+        "acl:qualification/taxonomy-aligned"
+      ],
+      "hasContext": [
+        "acl:context/consulting_portfolio_redesign",
+        "acl:context/commercialization_programs",
+        "acl:context/service_catalog_creation",
+        "acl:context/practice_strategy",
+        "acl:context/gtm_modernization"
+      ],
+      "hasOutcome": [
+        "acl:outcome/clearer_portfolio",
+        "acl:outcome/easier_selling",
+        "acl:outcome/stronger_delivery_consistency",
+        "acl:outcome/better_cross-sell",
+        "acl:outcome/greater_differentiation"
+      ],
+      "hasAudience": [
+        "acl:audience/offering_leaders",
+        "acl:audience/practice_leaders",
+        "acl:audience/sellers",
+        "acl:audience/delivery_leaders",
+        "acl:audience/firm_leadership"
+      ],
+      "hasStatement": [
+        "acl:statement/S0010",
+        "acl:statement/S0011",
+        "acl:statement/S0012"
+      ]
+    },
+    {
+      "@id": "acl:C05",
+      "@type": "Capability",
+      "identifier": "C05",
+      "name": "AI-enabled business development and account planning",
+      "description": "Uses AI and strategic analysis to identify priorities, buyers, white space, and pursuit paths inside accounts.",
+      "belongsToCluster": "acl:cluster/Commercialization",
+      "inZone": "acl:zone/Core_signature",
+      "strengthIndex": 9.1,
+      "depth": 10,
+      "breadth": 9,
+      "differentiation": 8,
+      "hasAction": [
+        "acl:action/analyze",
+        "acl:action/prioritize",
+        "acl:action/target",
+        "acl:action/map",
+        "acl:action/recommend"
+      ],
+      "hasObject": [
+        "acl:object/accounts",
+        "acl:object/buyers",
+        "acl:object/opportunities",
+        "acl:object/relationship_networks",
+        "acl:object/strategic_issues"
+      ],
+      "hasQualification": [
+        "acl:qualification/commercially_actionable",
+        "acl:qualification/account-specific",
+        "acl:qualification/issue-led",
+        "acl:qualification/buyer-aware",
+        "acl:qualification/evidence-based"
+      ],
+      "hasContext": [
+        "acl:context/account_planning",
+        "acl:context/pursuit_strategy",
+        "acl:context/relationship_expansion",
+        "acl:context/pipeline_development",
+        "acl:context/sales_enablement"
+      ],
+      "hasOutcome": [
+        "acl:outcome/better_targeting",
+        "acl:outcome/stronger_account_plans",
+        "acl:outcome/more_relevant_pursuits",
+        "acl:outcome/pipeline_growth",
+        "acl:outcome/higher_cross-sell_potential"
+      ],
+      "hasAudience": [
+        "acl:audience/account_directors",
+        "acl:audience/client_partners",
+        "acl:audience/sellers",
+        "acl:audience/practice_leaders",
+        "acl:audience/growth_teams"
+      ],
+      "hasStatement": [
+        "acl:statement/S0013",
+        "acl:statement/S0014",
+        "acl:statement/S0015"
+      ]
+    },
+    {
+      "@id": "acl:C06",
+      "@type": "Capability",
+      "identifier": "C06",
+      "name": "Local-first AI infrastructure and deployment design",
+      "description": "Designs durable local and hybrid AI deployments with strong control over compute, storage, and dependencies.",
+      "belongsToCluster": "acl:cluster/Architecture",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 9,
+      "depth": 9,
+      "breadth": 9,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/design",
+        "acl:action/deploy",
+        "acl:action/package",
+        "acl:action/secure",
+        "acl:action/operationalize"
+      ],
+      "hasObject": [
+        "acl:object/runtimes",
+        "acl:object/containers",
+        "acl:object/storage_layers",
+        "acl:object/local_compute_environments",
+        "acl:object/hybrid_architectures"
+      ],
+      "hasQualification": [
+        "acl:qualification/local-first",
+        "acl:qualification/durable",
+        "acl:qualification/portable",
+        "acl:qualification/secure",
+        "acl:qualification/low-dependency"
+      ],
+      "hasContext": [
+        "acl:context/on-prem_deployments",
+        "acl:context/regulated_environments",
+        "acl:context/private_installations",
+        "acl:context/edge_environments",
+        "acl:context/hybrid_enterprise_builds"
+      ],
+      "hasOutcome": [
+        "acl:outcome/deployment_control",
+        "acl:outcome/greater_privacy",
+        "acl:outcome/vendor_flexibility",
+        "acl:outcome/operational_durability",
+        "acl:outcome/lower_cloud_dependence"
+      ],
+      "hasAudience": [
+        "acl:audience/enterprise_architects",
+        "acl:audience/it_teams",
+        "acl:audience/security-conscious_buyers",
+        "acl:audience/operators",
+        "acl:audience/technical_founders"
+      ],
+      "hasStatement": [
+        "acl:statement/S0016",
+        "acl:statement/S0017",
+        "acl:statement/S0018"
+      ]
+    },
+    {
+      "@id": "acl:C07",
+      "@type": "Capability",
+      "identifier": "C07",
+      "name": "Knowledge graph / ontology / enterprise information architecture",
+      "description": "Builds semantic structures that make enterprise knowledge reusable, interoperable, and machine-readable.",
+      "belongsToCluster": "acl:cluster/Architecture",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 9,
+      "depth": 9,
+      "breadth": 9,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/model",
+        "acl:action/classify",
+        "acl:action/define",
+        "acl:action/relate",
+        "acl:action/normalize"
+      ],
+      "hasObject": [
+        "acl:object/entities",
+        "acl:object/relationships",
+        "acl:object/taxonomies",
+        "acl:object/ontologies",
+        "acl:object/metadata"
+      ],
+      "hasQualification": [
+        "acl:qualification/semantically_consistent",
+        "acl:qualification/extensible",
+        "acl:qualification/reusable",
+        "acl:qualification/machine-readable",
+        "acl:qualification/traceable"
+      ],
+      "hasContext": [
+        "acl:context/rag_systems",
+        "acl:context/knowledge_architecture",
+        "acl:context/data_harmonization",
+        "acl:context/agent_memory_design",
+        "acl:context/capability_mapping"
+      ],
+      "hasOutcome": [
+        "acl:outcome/better_retrieval",
+        "acl:outcome/stronger_reasoning",
+        "acl:outcome/cleaner_structure",
+        "acl:outcome/interoperability",
+        "acl:outcome/reusable_enterprise_intelligence"
+      ],
+      "hasAudience": [
+        "acl:audience/ai_architects",
+        "acl:audience/knowledge_managers",
+        "acl:audience/data_leaders",
+        "acl:audience/enterprise_architects",
+        "acl:audience/product_teams"
+      ],
+      "hasStatement": [
+        "acl:statement/S0019",
+        "acl:statement/S0020",
+        "acl:statement/S0021"
+      ]
+    },
+    {
+      "@id": "acl:C08",
+      "@type": "Capability",
+      "identifier": "C08",
+      "name": "Private equity value creation / EBITDA-oriented transformation",
+      "description": "Frames transformation and AI initiatives in terms of EBITDA, operating leverage, and portfolio value creation.",
+      "belongsToCluster": "acl:cluster/Value_creation",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 9,
+      "depth": 9,
+      "breadth": 8,
+      "differentiation": 10,
+      "hasAction": [
+        "acl:action/diagnose",
+        "acl:action/quantify",
+        "acl:action/prioritize",
+        "acl:action/model",
+        "acl:action/frame"
+      ],
+      "hasObject": [
+        "acl:object/value_levers",
+        "acl:object/cost_structures",
+        "acl:object/revenue_drivers",
+        "acl:object/operating_metrics",
+        "acl:object/portfolio_initiatives"
+      ],
+      "hasQualification": [
+        "acl:qualification/ebitda-linked",
+        "acl:qualification/economically_rigorous",
+        "acl:qualification/investor-legible",
+        "acl:qualification/action-oriented",
+        "acl:qualification/operationally_grounded"
+      ],
+      "hasContext": [
+        "acl:context/pe_diligence",
+        "acl:context/portfolio_strategy",
+        "acl:context/transformation_planning",
+        "acl:context/cfo_conversations",
+        "acl:context/operating_partner_work"
+      ],
+      "hasOutcome": [
+        "acl:outcome/clear_value_thesis",
+        "acl:outcome/measurable_impact",
+        "acl:outcome/stronger_prioritization",
+        "acl:outcome/better_investment_narrative",
+        "acl:outcome/operating_leverage"
+      ],
+      "hasAudience": [
+        "acl:audience/operating_partners",
+        "acl:audience/pe_funds",
+        "acl:audience/cfos",
+        "acl:audience/ceos",
+        "acl:audience/portfolio_company_leaders"
+      ],
+      "hasStatement": [
+        "acl:statement/S0022",
+        "acl:statement/S0023",
+        "acl:statement/S0024"
+      ]
+    },
+    {
+      "@id": "acl:C09",
+      "@type": "Capability",
+      "identifier": "C09",
+      "name": "AI commercialization / product strategy / incubation",
+      "description": "Shapes AI products and solution concepts into validated, prioritized, monetizable offerings.",
+      "belongsToCluster": "acl:cluster/Commercialization",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 8.7,
+      "depth": 9,
+      "breadth": 8,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/incubate",
+        "acl:action/shape",
+        "acl:action/validate",
+        "acl:action/prioritize",
+        "acl:action/commercialize"
+      ],
+      "hasObject": [
+        "acl:object/ai_products",
+        "acl:object/solution_concepts",
+        "acl:object/prototypes",
+        "acl:object/commercialization_paths",
+        "acl:object/roadmaps"
+      ],
+      "hasQualification": [
+        "acl:qualification/market-aware",
+        "acl:qualification/monetizable",
+        "acl:qualification/scalable",
+        "acl:qualification/differentiated",
+        "acl:qualification/practical"
+      ],
+      "hasContext": [
+        "acl:context/innovation_programs",
+        "acl:context/new_venture_design",
+        "acl:context/internal_productization",
+        "acl:context/solution_incubation",
+        "acl:context/advisory_product_development"
+      ],
+      "hasOutcome": [
+        "acl:outcome/stronger_product-market_fit",
+        "acl:outcome/clearer_roadmap",
+        "acl:outcome/better_monetization",
+        "acl:outcome/scalable_offers",
+        "acl:outcome/faster_validation"
+      ],
+      "hasAudience": [
+        "acl:audience/product_leaders",
+        "acl:audience/founders",
+        "acl:audience/innovation_teams",
+        "acl:audience/commercialization_leads",
+        "acl:audience/investors"
+      ],
+      "hasStatement": [
+        "acl:statement/S0025",
+        "acl:statement/S0026",
+        "acl:statement/S0027"
+      ]
+    },
+    {
+      "@id": "acl:C10",
+      "@type": "Capability",
+      "identifier": "C10",
+      "name": "Process architecture, SOPs, and current-state analysis",
+      "description": "Documents and analyzes current operations to reveal pain points, controls, and redesign opportunities.",
+      "belongsToCluster": "acl:cluster/Execution___control",
+      "inZone": "acl:zone/Credible_expansion",
+      "strengthIndex": 8.1,
+      "depth": 9,
+      "breadth": 8,
+      "differentiation": 7,
+      "hasAction": [
+        "acl:action/document",
+        "acl:action/map",
+        "acl:action/analyze",
+        "acl:action/decompose",
+        "acl:action/redesign"
+      ],
+      "hasObject": [
+        "acl:object/processes",
+        "acl:object/subprocesses",
+        "acl:object/handoffs",
+        "acl:object/roles",
+        "acl:object/controls"
+      ],
+      "hasQualification": [
+        "acl:qualification/structured",
+        "acl:qualification/detailed",
+        "acl:qualification/evidence-based",
+        "acl:qualification/workflow-aware",
+        "acl:qualification/improvement-oriented"
+      ],
+      "hasContext": [
+        "acl:context/process_improvement",
+        "acl:context/operational_diagnostics",
+        "acl:context/documentation_programs",
+        "acl:context/service_delivery_design",
+        "acl:context/transformation_initiatives"
+      ],
+      "hasOutcome": [
+        "acl:outcome/process_clarity",
+        "acl:outcome/identified_pain_points",
+        "acl:outcome/standardization",
+        "acl:outcome/efficiency_improvement",
+        "acl:outcome/training-ready_artifacts"
+      ],
+      "hasAudience": [
+        "acl:audience/operations_leaders",
+        "acl:audience/process_owners",
+        "acl:audience/pmo_teams",
+        "acl:audience/quality_teams",
+        "acl:audience/delivery_teams"
+      ],
+      "hasStatement": [
+        "acl:statement/S0028",
+        "acl:statement/S0029",
+        "acl:statement/S0030"
+      ]
+    },
+    {
+      "@id": "acl:C11",
+      "@type": "Capability",
+      "identifier": "C11",
+      "name": "Market intelligence / competitor analysis / strategic research",
+      "description": "Researches and interprets market and competitor signals to support strategy, positioning, and pursuit planning.",
+      "belongsToCluster": "acl:cluster/Translation",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 8.7,
+      "depth": 9,
+      "breadth": 9,
+      "differentiation": 8,
+      "hasAction": [
+        "acl:action/research",
+        "acl:action/synthesize",
+        "acl:action/compare",
+        "acl:action/interpret",
+        "acl:action/recommend"
+      ],
+      "hasObject": [
+        "acl:object/markets",
+        "acl:object/competitors",
+        "acl:object/trends",
+        "acl:object/strategic_signals",
+        "acl:object/industry_events"
+      ],
+      "hasQualification": [
+        "acl:qualification/current",
+        "acl:qualification/evidence-backed",
+        "acl:qualification/decision-relevant",
+        "acl:qualification/commercially_useful",
+        "acl:qualification/nuanced"
+      ],
+      "hasContext": [
+        "acl:context/account_planning",
+        "acl:context/pursuit_prep",
+        "acl:context/executive_briefings",
+        "acl:context/offering_design",
+        "acl:context/industry_strategy"
+      ],
+      "hasOutcome": [
+        "acl:outcome/better_situational_awareness",
+        "acl:outcome/sharper_positioning",
+        "acl:outcome/stronger_recommendations",
+        "acl:outcome/competitive_clarity",
+        "acl:outcome/more_informed_decisions"
+      ],
+      "hasAudience": [
+        "acl:audience/executives",
+        "acl:audience/strategy_teams",
+        "acl:audience/sellers",
+        "acl:audience/offering_leaders",
+        "acl:audience/investors"
+      ],
+      "hasStatement": [
+        "acl:statement/S0031",
+        "acl:statement/S0032",
+        "acl:statement/S0033"
+      ]
+    },
+    {
+      "@id": "acl:C12",
+      "@type": "Capability",
+      "identifier": "C12",
+      "name": "AI governance, QA, diagnostics, and control frameworks",
+      "description": "Creates diagnostic, quality, and control layers that make enterprise AI outputs more auditable and trustworthy.",
+      "belongsToCluster": "acl:cluster/Execution___control",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 8.7,
+      "depth": 9,
+      "breadth": 8,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/evaluate",
+        "acl:action/diagnose",
+        "acl:action/classify",
+        "acl:action/score",
+        "acl:action/govern"
+      ],
+      "hasObject": [
+        "acl:object/outputs",
+        "acl:object/agent_behaviors",
+        "acl:object/quality_criteria",
+        "acl:object/risk_types",
+        "acl:object/control_layers"
+      ],
+      "hasQualification": [
+        "acl:qualification/structured",
+        "acl:qualification/auditable",
+        "acl:qualification/measurable",
+        "acl:qualification/explainable",
+        "acl:qualification/governance-ready"
+      ],
+      "hasContext": [
+        "acl:context/enterprise_ai_deployment",
+        "acl:context/regulated_workflows",
+        "acl:context/output_review",
+        "acl:context/model_oversight",
+        "acl:context/quality_management"
+      ],
+      "hasOutcome": [
+        "acl:outcome/higher_output_quality",
+        "acl:outcome/lower_risk",
+        "acl:outcome/clear_remediation",
+        "acl:outcome/greater_trust",
+        "acl:outcome/better_accountability"
+      ],
+      "hasAudience": [
+        "acl:audience/ai_governance_teams",
+        "acl:audience/risk_leaders",
+        "acl:audience/legal_and_compliance_teams",
+        "acl:audience/executives",
+        "acl:audience/qa_teams"
+      ],
+      "hasStatement": [
+        "acl:statement/S0034",
+        "acl:statement/S0035",
+        "acl:statement/S0036"
+      ]
+    },
+    {
+      "@id": "acl:C13",
+      "@type": "Capability",
+      "identifier": "C13",
+      "name": "Training, enablement, and cultural activation for AI adoption",
+      "description": "Builds the training, scaffolding, and behavior-change mechanisms needed for real AI adoption.",
+      "belongsToCluster": "acl:cluster/Translation",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 8.7,
+      "depth": 9,
+      "breadth": 9,
+      "differentiation": 8,
+      "hasAction": [
+        "acl:action/teach",
+        "acl:action/equip",
+        "acl:action/activate",
+        "acl:action/coach",
+        "acl:action/reinforce"
+      ],
+      "hasObject": [
+        "acl:object/skills",
+        "acl:object/mindsets",
+        "acl:object/behaviors",
+        "acl:object/training_materials",
+        "acl:object/templates"
+      ],
+      "hasQualification": [
+        "acl:qualification/practical",
+        "acl:qualification/behavior-oriented",
+        "acl:qualification/accessible",
+        "acl:qualification/repeatable",
+        "acl:qualification/adoption-focused"
+      ],
+      "hasContext": [
+        "acl:context/ai_adoption_programs",
+        "acl:context/leadership_development",
+        "acl:context/enterprise_enablement",
+        "acl:context/change_management",
+        "acl:context/consulting_team_training"
+      ],
+      "hasOutcome": [
+        "acl:outcome/stronger_adoption",
+        "acl:outcome/higher_ai_fluency",
+        "acl:outcome/improved_confidence",
+        "acl:outcome/behavior_change",
+        "acl:outcome/reduced_resistance"
+      ],
+      "hasAudience": [
+        "acl:audience/leaders",
+        "acl:audience/managers",
+        "acl:audience/employees",
+        "acl:audience/enablement_functions",
+        "acl:audience/transformation_offices"
+      ],
+      "hasStatement": [
+        "acl:statement/S0037",
+        "acl:statement/S0038",
+        "acl:statement/S0039"
+      ]
+    },
+    {
+      "@id": "acl:C14",
+      "@type": "Capability",
+      "identifier": "C14",
+      "name": "Executive thought leadership and analytical writing",
+      "description": "Produces high-signal analytical writing that makes complex systems legible and commercially meaningful.",
+      "belongsToCluster": "acl:cluster/Translation",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 9,
+      "depth": 9,
+      "breadth": 8,
+      "differentiation": 10,
+      "hasAction": [
+        "acl:action/write",
+        "acl:action/frame",
+        "acl:action/synthesize",
+        "acl:action/argue",
+        "acl:action/explain"
+      ],
+      "hasObject": [
+        "acl:object/articles",
+        "acl:object/white_papers",
+        "acl:object/frameworks",
+        "acl:object/strategic_narratives",
+        "acl:object/povs"
+      ],
+      "hasQualification": [
+        "acl:qualification/original",
+        "acl:qualification/rigorous",
+        "acl:qualification/readable",
+        "acl:qualification/high-signal",
+        "acl:qualification/distinctive"
+      ],
+      "hasContext": [
+        "acl:context/brand_building",
+        "acl:context/publication",
+        "acl:context/executive_education",
+        "acl:context/market_education",
+        "acl:context/business_development"
+      ],
+      "hasOutcome": [
+        "acl:outcome/stronger_credibility",
+        "acl:outcome/market_differentiation",
+        "acl:outcome/executive_understanding",
+        "acl:outcome/demand_creation",
+        "acl:outcome/clearer_narratives"
+      ],
+      "hasAudience": [
+        "acl:audience/executives",
+        "acl:audience/clients",
+        "acl:audience/market_audiences",
+        "acl:audience/conference_organizers",
+        "acl:audience/investors"
+      ],
+      "hasStatement": [
+        "acl:statement/S0040",
+        "acl:statement/S0041",
+        "acl:statement/S0042"
+      ]
+    },
+    {
+      "@id": "acl:C15",
+      "@type": "Capability",
+      "identifier": "C15",
+      "name": "AI-native application design / product specs / UX structure",
+      "description": "Designs AI-native application structures and build specs that connect user flow to agent behavior.",
+      "belongsToCluster": "acl:cluster/Architecture",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 8.7,
+      "depth": 9,
+      "breadth": 8,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/specify",
+        "acl:action/design",
+        "acl:action/sequence",
+        "acl:action/prototype",
+        "acl:action/translate"
+      ],
+      "hasObject": [
+        "acl:object/app_flows",
+        "acl:object/ux_logic",
+        "acl:object/build_specs",
+        "acl:object/system_prompts",
+        "acl:object/configurations"
+      ],
+      "hasQualification": [
+        "acl:qualification/ai-native",
+        "acl:qualification/implementation-ready",
+        "acl:qualification/modular",
+        "acl:qualification/clear",
+        "acl:qualification/developer-usable"
+      ],
+      "hasContext": [
+        "acl:context/ai_app_development",
+        "acl:context/internal_tool_builds",
+        "acl:context/prototype_handoffs",
+        "acl:context/solution_design",
+        "acl:context/agentic_product_builds"
+      ],
+      "hasOutcome": [
+        "acl:outcome/better_build_quality",
+        "acl:outcome/faster_execution",
+        "acl:outcome/stronger_usability",
+        "acl:outcome/clearer_developer_handoff",
+        "acl:outcome/reduced_ambiguity"
+      ],
+      "hasAudience": [
+        "acl:audience/developers",
+        "acl:audience/product_managers",
+        "acl:audience/designers",
+        "acl:audience/founders",
+        "acl:audience/innovation_teams"
+      ],
+      "hasStatement": [
+        "acl:statement/S0043",
+        "acl:statement/S0044",
+        "acl:statement/S0045"
+      ]
+    },
+    {
+      "@id": "acl:C16",
+      "@type": "Capability",
+      "identifier": "C16",
+      "name": "OpenAI / Claude / CustomGPT / agent workflow design",
+      "description": "Configures platform-specific assistant workflows that improve reliability, reuse, and task completion.",
+      "belongsToCluster": "acl:cluster/Execution___control",
+      "inZone": "acl:zone/Adjacent_supporting",
+      "strengthIndex": 8.8,
+      "depth": 10,
+      "breadth": 8,
+      "differentiation": 8,
+      "hasAction": [
+        "acl:action/configure",
+        "acl:action/orchestrate",
+        "acl:action/prompt",
+        "acl:action/constrain",
+        "acl:action/optimize"
+      ],
+      "hasObject": [
+        "acl:object/assistants",
+        "acl:object/prompts",
+        "acl:object/toolchains",
+        "acl:object/knowledge_libraries",
+        "acl:object/workflow_chains"
+      ],
+      "hasQualification": [
+        "acl:qualification/platform-aware",
+        "acl:qualification/precise",
+        "acl:qualification/reusable",
+        "acl:qualification/quality-controlled",
+        "acl:qualification/outcome-oriented"
+      ],
+      "hasContext": [
+        "acl:context/assistant_development",
+        "acl:context/enterprise_copilots",
+        "acl:context/rapid_prototyping",
+        "acl:context/multi-agent_systems",
+        "acl:context/internal_ai_tools"
+      ],
+      "hasOutcome": [
+        "acl:outcome/better_assistant_quality",
+        "acl:outcome/more_reliable_outputs",
+        "acl:outcome/improved_task_completion",
+        "acl:outcome/reusable_patterns",
+        "acl:outcome/faster_prototyping"
+      ],
+      "hasAudience": [
+        "acl:audience/builders",
+        "acl:audience/ai_teams",
+        "acl:audience/consultants",
+        "acl:audience/product_owners",
+        "acl:audience/end_users"
+      ],
+      "hasStatement": [
+        "acl:statement/S0046",
+        "acl:statement/S0047",
+        "acl:statement/S0048"
+      ]
+    },
+    {
+      "@id": "acl:C17",
+      "@type": "Capability",
+      "identifier": "C17",
+      "name": "Consulting sales methodology and buyer positioning",
+      "description": "Sharpens buyer-facing narratives, proof points, and pursuit discipline for consulting sales motions.",
+      "belongsToCluster": "acl:cluster/Commercialization",
+      "inZone": "acl:zone/Credible_expansion",
+      "strengthIndex": 7.7,
+      "depth": 8,
+      "breadth": 8,
+      "differentiation": 7,
+      "hasAction": [
+        "acl:action/position",
+        "acl:action/tailor",
+        "acl:action/align",
+        "acl:action/differentiate",
+        "acl:action/guide"
+      ],
+      "hasObject": [
+        "acl:object/messages",
+        "acl:object/buyer_narratives",
+        "acl:object/talk_tracks",
+        "acl:object/proof_points",
+        "acl:object/conversation_paths"
+      ],
+      "hasQualification": [
+        "acl:qualification/buyer-specific",
+        "acl:qualification/persuasive",
+        "acl:qualification/issue-led",
+        "acl:qualification/context-aware",
+        "acl:qualification/commercially_sharp"
+      ],
+      "hasContext": [
+        "acl:context/business_development",
+        "acl:context/proposal_shaping",
+        "acl:context/sales_conversations",
+        "acl:context/pursuits",
+        "acl:context/sales_enablement"
+      ],
+      "hasOutcome": [
+        "acl:outcome/better_buyer_resonance",
+        "acl:outcome/higher_conversion_quality",
+        "acl:outcome/stronger_pursuit_discipline",
+        "acl:outcome/clearer_messaging",
+        "acl:outcome/improved_win_support"
+      ],
+      "hasAudience": [
+        "acl:audience/sellers",
+        "acl:audience/client_partners",
+        "acl:audience/account_teams",
+        "acl:audience/bd_leaders",
+        "acl:audience/practice_leaders"
+      ],
+      "hasStatement": [
+        "acl:statement/S0049",
+        "acl:statement/S0050",
+        "acl:statement/S0051"
+      ]
+    },
+    {
+      "@id": "acl:C18",
+      "@type": "Capability",
+      "identifier": "C18",
+      "name": "Cross-industry solution contextualization",
+      "description": "Adapts solutions and value stories so they fit specific industries without becoming generic.",
+      "belongsToCluster": "acl:cluster/Translation",
+      "inZone": "acl:zone/Credible_expansion",
+      "strengthIndex": 8,
+      "depth": 8,
+      "breadth": 9,
+      "differentiation": 7,
+      "hasAction": [
+        "acl:action/adapt",
+        "acl:action/translate",
+        "acl:action/tailor",
+        "acl:action/align",
+        "acl:action/map"
+      ],
+      "hasObject": [
+        "acl:object/offerings",
+        "acl:object/use_cases",
+        "acl:object/value_stories",
+        "acl:object/messages",
+        "acl:object/solution_components"
+      ],
+      "hasQualification": [
+        "acl:qualification/industry-specific",
+        "acl:qualification/credible",
+        "acl:qualification/nuance-aware",
+        "acl:qualification/strategically_aligned",
+        "acl:qualification/non-generic"
+      ],
+      "hasContext": [
+        "acl:context/vertical_gtm",
+        "acl:context/account_targeting",
+        "acl:context/multi-industry_consulting",
+        "acl:context/portfolio_design",
+        "acl:context/market_expansion"
+      ],
+      "hasOutcome": [
+        "acl:outcome/stronger_industry_fit",
+        "acl:outcome/better_relevance",
+        "acl:outcome/improved_resonance",
+        "acl:outcome/reduced_genericity",
+        "acl:outcome/better_market_access"
+      ],
+      "hasAudience": [
+        "acl:audience/industry_leaders",
+        "acl:audience/clients",
+        "acl:audience/sellers",
+        "acl:audience/offering_teams",
+        "acl:audience/strategy_leaders"
+      ],
+      "hasStatement": [
+        "acl:statement/S0052",
+        "acl:statement/S0053",
+        "acl:statement/S0054"
+      ]
+    },
+    {
+      "@id": "acl:C19",
+      "@type": "Capability",
+      "identifier": "C19",
+      "name": "Risk, misuse, and threat-oriented AI analysis",
+      "description": "Analyzes misuse patterns and safety threats so AI systems and policies can be designed more defensively.",
+      "belongsToCluster": "acl:cluster/Translation",
+      "inZone": "acl:zone/Credible_expansion",
+      "strengthIndex": 7.7,
+      "depth": 8,
+      "breadth": 6,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/assess",
+        "acl:action/anticipate",
+        "acl:action/analyze",
+        "acl:action/classify",
+        "acl:action/surface"
+      ],
+      "hasObject": [
+        "acl:object/misuse_scenarios",
+        "acl:object/threat_patterns",
+        "acl:object/behavioral_risks",
+        "acl:object/safety_gaps",
+        "acl:object/vulnerabilities"
+      ],
+      "hasQualification": [
+        "acl:qualification/safety-aware",
+        "acl:qualification/scenario-based",
+        "acl:qualification/ethically_grounded",
+        "acl:qualification/risk-sensitive",
+        "acl:qualification/analytically_rigorous"
+      ],
+      "hasContext": [
+        "acl:context/ai_safety_research",
+        "acl:context/policy_work",
+        "acl:context/enterprise_risk_discussions",
+        "acl:context/trust_and_safety_strategy",
+        "acl:context/public_thought_leadership"
+      ],
+      "hasOutcome": [
+        "acl:outcome/better_preparedness",
+        "acl:outcome/clearer_risk_posture",
+        "acl:outcome/stronger_safeguards",
+        "acl:outcome/safer_design",
+        "acl:outcome/differentiated_safety_perspective"
+      ],
+      "hasAudience": [
+        "acl:audience/risk_teams",
+        "acl:audience/policy_audiences",
+        "acl:audience/researchers",
+        "acl:audience/executives",
+        "acl:audience/trust_and_safety_leaders"
+      ],
+      "hasStatement": [
+        "acl:statement/S0055",
+        "acl:statement/S0056",
+        "acl:statement/S0057"
+      ]
+    },
+    {
+      "@id": "acl:C20",
+      "@type": "Capability",
+      "identifier": "C20",
+      "name": "Venture building around AI advisory and products",
+      "description": "Packages capabilities into ventures, brands, and monetizable product or advisory platforms.",
+      "belongsToCluster": "acl:cluster/Commercialization",
+      "inZone": "acl:zone/Credible_expansion",
+      "strengthIndex": 8.3,
+      "depth": 8,
+      "breadth": 8,
+      "differentiation": 9,
+      "hasAction": [
+        "acl:action/envision",
+        "acl:action/package",
+        "acl:action/launch",
+        "acl:action/brand",
+        "acl:action/commercialize"
+      ],
+      "hasObject": [
+        "acl:object/ventures",
+        "acl:object/brands",
+        "acl:object/services",
+        "acl:object/products",
+        "acl:object/revenue_models"
+      ],
+      "hasQualification": [
+        "acl:qualification/entrepreneurial",
+        "acl:qualification/differentiated",
+        "acl:qualification/market-oriented",
+        "acl:qualification/scalable",
+        "acl:qualification/strategically_coherent"
+      ],
+      "hasContext": [
+        "acl:context/startup_creation",
+        "acl:context/advisory_launch",
+        "acl:context/studio_models",
+        "acl:context/adjacent_business_lines",
+        "acl:context/external_commercialization"
+      ],
+      "hasOutcome": [
+        "acl:outcome/new_revenue_streams",
+        "acl:outcome/clear_market_identity",
+        "acl:outcome/scalable_ip_platform",
+        "acl:outcome/stronger_monetization",
+        "acl:outcome/ecosystem_leverage"
+      ],
+      "hasAudience": [
+        "acl:audience/founders",
+        "acl:audience/buyers",
+        "acl:audience/investors",
+        "acl:audience/strategic_partners",
+        "acl:audience/early_clients"
+      ],
+      "hasStatement": [
+        "acl:statement/S0058",
+        "acl:statement/S0059",
+        "acl:statement/S0060"
+      ]
+    },
+    {
+      "@id": "acl:statement/S0001",
+      "@type": "AtomicStatement",
+      "identifier": "S0001",
+      "description": "Architect orchestrators in multi-agent platforms for CTOs to drive repeatable deployment in a governable way.",
+      "hasAction": "acl:action/architect",
+      "hasObject": "acl:object/orchestrators",
+      "hasQualification": "acl:qualification/governable",
+      "hasContext": "acl:context/multi-agent_platforms",
+      "hasOutcome": "acl:outcome/repeatable_deployment",
+      "hasAudience": "acl:audience/CTOs"
+    },
+    {
+      "@id": "acl:statement/S0002",
+      "@type": "AtomicStatement",
+      "identifier": "S0002",
+      "description": "Orchestrate runtime layers in hybrid runtime environments for AI leaders to drive lower fragility in a scalable way.",
+      "hasAction": "acl:action/orchestrate",
+      "hasObject": "acl:object/runtime_layers",
+      "hasQualification": "acl:qualification/scalable",
+      "hasContext": "acl:context/hybrid_runtime_environments",
+      "hasOutcome": "acl:outcome/lower_fragility",
+      "hasAudience": "acl:audience/AI_leaders"
+    },
+    {
+      "@id": "acl:statement/S0003",
+      "@type": "AtomicStatement",
+      "identifier": "S0003",
+      "description": "Modularize memory layers in local-first deployments for enterprise architects to drive enterprise-grade performance in a resilient way.",
+      "hasAction": "acl:action/modularize",
+      "hasObject": "acl:object/memory_layers",
+      "hasQualification": "acl:qualification/resilient",
+      "hasContext": "acl:context/local-first_deployments",
+      "hasOutcome": "acl:outcome/enterprise-grade_performance",
+      "hasAudience": "acl:audience/enterprise_architects"
+    },
+    {
+      "@id": "acl:statement/S0004",
+      "@type": "AtomicStatement",
+      "identifier": "S0004",
+      "description": "Synthesize technical systems in AI transformation for transformation leaders to drive better decision-making in a economically grounded way.",
+      "hasAction": "acl:action/synthesize",
+      "hasObject": "acl:object/technical_systems",
+      "hasQualification": "acl:qualification/economically_grounded",
+      "hasContext": "acl:context/AI_transformation",
+      "hasOutcome": "acl:outcome/better_decision-making",
+      "hasAudience": "acl:audience/transformation_leaders"
+    },
+    {
+      "@id": "acl:statement/S0005",
+      "@type": "AtomicStatement",
+      "identifier": "S0005",
+      "description": "Connect financial logic in commercialization planning for strategy teams to drive lower fragmentation in a executive-legible way.",
+      "hasAction": "acl:action/connect",
+      "hasObject": "acl:object/financial_logic",
+      "hasQualification": "acl:qualification/executive-legible",
+      "hasContext": "acl:context/commercialization_planning",
+      "hasOutcome": "acl:outcome/lower_fragmentation",
+      "hasAudience": "acl:audience/strategy_teams"
+    },
+    {
+      "@id": "acl:statement/S0006",
+      "@type": "AtomicStatement",
+      "identifier": "S0006",
+      "description": "Translate operating models in operating model design for board stakeholders to drive higher implementation feasibility in a internally coherent way.",
+      "hasAction": "acl:action/translate",
+      "hasObject": "acl:object/operating_models",
+      "hasQualification": "acl:qualification/internally_coherent",
+      "hasContext": "acl:context/operating_model_design",
+      "hasOutcome": "acl:outcome/higher_implementation_feasibility",
+      "hasAudience": "acl:audience/board_stakeholders"
+    },
+    {
+      "@id": "acl:statement/S0007",
+      "@type": "AtomicStatement",
+      "identifier": "S0007",
+      "description": "Define workflows in AI CoE builds for CAIOs to drive stronger controls in a role-clear way.",
+      "hasAction": "acl:action/define",
+      "hasObject": "acl:object/workflows",
+      "hasQualification": "acl:qualification/role-clear",
+      "hasContext": "acl:context/AI_CoE_builds",
+      "hasOutcome": "acl:outcome/stronger_controls",
+      "hasAudience": "acl:audience/CAIOs"
+    },
+    {
+      "@id": "acl:statement/S0008",
+      "@type": "AtomicStatement",
+      "identifier": "S0008",
+      "description": "Structure decision rights in operating model redesign for AI PMO leaders to drive lower ambiguity in a policy-aware way.",
+      "hasAction": "acl:action/structure",
+      "hasObject": "acl:object/decision_rights",
+      "hasQualification": "acl:qualification/policy-aware",
+      "hasContext": "acl:context/operating_model_redesign",
+      "hasOutcome": "acl:outcome/lower_ambiguity",
+      "hasAudience": "acl:audience/AI_PMO_leaders"
+    },
+    {
+      "@id": "acl:statement/S0009",
+      "@type": "AtomicStatement",
+      "identifier": "S0009",
+      "description": "Assign review paths in departmental AI deployment for department heads to drive consistent delivery in a implementation-ready way.",
+      "hasAction": "acl:action/assign",
+      "hasObject": "acl:object/review_paths",
+      "hasQualification": "acl:qualification/implementation-ready",
+      "hasContext": "acl:context/departmental_AI_deployment",
+      "hasOutcome": "acl:outcome/consistent_delivery",
+      "hasAudience": "acl:audience/department_heads"
+    },
+    {
+      "@id": "acl:statement/S0010",
+      "@type": "AtomicStatement",
+      "identifier": "S0010",
+      "description": "Define service modules in commercialization programs for practice leaders to drive stronger delivery consistency in a delivery-aware way.",
+      "hasAction": "acl:action/define",
+      "hasObject": "acl:object/service_modules",
+      "hasQualification": "acl:qualification/delivery-aware",
+      "hasContext": "acl:context/commercialization_programs",
+      "hasOutcome": "acl:outcome/stronger_delivery_consistency",
+      "hasAudience": "acl:audience/practice_leaders"
+    },
+    {
+      "@id": "acl:statement/S0011",
+      "@type": "AtomicStatement",
+      "identifier": "S0011",
+      "description": "Package capabilities in service catalog creation for sellers to drive better cross-sell in a differentiated way.",
+      "hasAction": "acl:action/package",
+      "hasObject": "acl:object/capabilities",
+      "hasQualification": "acl:qualification/differentiated",
+      "hasContext": "acl:context/service_catalog_creation",
+      "hasOutcome": "acl:outcome/better_cross-sell",
+      "hasAudience": "acl:audience/sellers"
+    },
+    {
+      "@id": "acl:statement/S0012",
+      "@type": "AtomicStatement",
+      "identifier": "S0012",
+      "description": "Tier skills in practice strategy for delivery leaders to drive greater differentiation in a taxonomy-aligned way.",
+      "hasAction": "acl:action/tier",
+      "hasObject": "acl:object/skills",
+      "hasQualification": "acl:qualification/taxonomy-aligned",
+      "hasContext": "acl:context/practice_strategy",
+      "hasOutcome": "acl:outcome/greater_differentiation",
+      "hasAudience": "acl:audience/delivery_leaders"
+    },
+    {
+      "@id": "acl:statement/S0013",
+      "@type": "AtomicStatement",
+      "identifier": "S0013",
+      "description": "Analyze buyers in pursuit strategy for client partners to drive more relevant pursuits in a issue-led way.",
+      "hasAction": "acl:action/analyze",
+      "hasObject": "acl:object/buyers",
+      "hasQualification": "acl:qualification/issue-led",
+      "hasContext": "acl:context/pursuit_strategy",
+      "hasOutcome": "acl:outcome/more_relevant_pursuits",
+      "hasAudience": "acl:audience/client_partners"
+    },
+    {
+      "@id": "acl:statement/S0014",
+      "@type": "AtomicStatement",
+      "identifier": "S0014",
+      "description": "Prioritize opportunities in relationship expansion for sellers to drive pipeline growth in a buyer-aware way.",
+      "hasAction": "acl:action/prioritize",
+      "hasObject": "acl:object/opportunities",
+      "hasQualification": "acl:qualification/buyer-aware",
+      "hasContext": "acl:context/relationship_expansion",
+      "hasOutcome": "acl:outcome/pipeline_growth",
+      "hasAudience": "acl:audience/sellers"
+    },
+    {
+      "@id": "acl:statement/S0015",
+      "@type": "AtomicStatement",
+      "identifier": "S0015",
+      "description": "Target relationship networks in pipeline development for practice leaders to drive higher cross-sell potential in a evidence-based way.",
+      "hasAction": "acl:action/target",
+      "hasObject": "acl:object/relationship_networks",
+      "hasQualification": "acl:qualification/evidence-based",
+      "hasContext": "acl:context/pipeline_development",
+      "hasOutcome": "acl:outcome/higher_cross-sell_potential",
+      "hasAudience": "acl:audience/practice_leaders"
+    },
+    {
+      "@id": "acl:statement/S0016",
+      "@type": "AtomicStatement",
+      "identifier": "S0016",
+      "description": "Design containers in regulated environments for IT teams to drive vendor flexibility in a portable way.",
+      "hasAction": "acl:action/design",
+      "hasObject": "acl:object/containers",
+      "hasQualification": "acl:qualification/portable",
+      "hasContext": "acl:context/regulated_environments",
+      "hasOutcome": "acl:outcome/vendor_flexibility",
+      "hasAudience": "acl:audience/IT_teams"
+    },
+    {
+      "@id": "acl:statement/S0017",
+      "@type": "AtomicStatement",
+      "identifier": "S0017",
+      "description": "Deploy storage layers in private installations for security-conscious buyers to drive operational durability in a secure way.",
+      "hasAction": "acl:action/deploy",
+      "hasObject": "acl:object/storage_layers",
+      "hasQualification": "acl:qualification/secure",
+      "hasContext": "acl:context/private_installations",
+      "hasOutcome": "acl:outcome/operational_durability",
+      "hasAudience": "acl:audience/security-conscious_buyers"
+    },
+    {
+      "@id": "acl:statement/S0018",
+      "@type": "AtomicStatement",
+      "identifier": "S0018",
+      "description": "Package local compute environments in edge environments for operators to drive lower cloud dependence in a low-dependency way.",
+      "hasAction": "acl:action/package",
+      "hasObject": "acl:object/local_compute_environments",
+      "hasQualification": "acl:qualification/low-dependency",
+      "hasContext": "acl:context/edge_environments",
+      "hasOutcome": "acl:outcome/lower_cloud_dependence",
+      "hasAudience": "acl:audience/operators"
+    },
+    {
+      "@id": "acl:statement/S0019",
+      "@type": "AtomicStatement",
+      "identifier": "S0019",
+      "description": "Model relationships in knowledge architecture for knowledge managers to drive cleaner structure in a reusable way.",
+      "hasAction": "acl:action/model",
+      "hasObject": "acl:object/relationships",
+      "hasQualification": "acl:qualification/reusable",
+      "hasContext": "acl:context/knowledge_architecture",
+      "hasOutcome": "acl:outcome/cleaner_structure",
+      "hasAudience": "acl:audience/knowledge_managers"
+    },
+    {
+      "@id": "acl:statement/S0020",
+      "@type": "AtomicStatement",
+      "identifier": "S0020",
+      "description": "Classify taxonomies in data harmonization for data leaders to drive interoperability in a machine-readable way.",
+      "hasAction": "acl:action/classify",
+      "hasObject": "acl:object/taxonomies",
+      "hasQualification": "acl:qualification/machine-readable",
+      "hasContext": "acl:context/data_harmonization",
+      "hasOutcome": "acl:outcome/interoperability",
+      "hasAudience": "acl:audience/data_leaders"
+    },
+    {
+      "@id": "acl:statement/S0021",
+      "@type": "AtomicStatement",
+      "identifier": "S0021",
+      "description": "Define ontologies in agent memory design for enterprise architects to drive reusable enterprise intelligence in a traceable way.",
+      "hasAction": "acl:action/define",
+      "hasObject": "acl:object/ontologies",
+      "hasQualification": "acl:qualification/traceable",
+      "hasContext": "acl:context/agent_memory_design",
+      "hasOutcome": "acl:outcome/reusable_enterprise_intelligence",
+      "hasAudience": "acl:audience/enterprise_architects"
+    },
+    {
+      "@id": "acl:statement/S0022",
+      "@type": "AtomicStatement",
+      "identifier": "S0022",
+      "description": "Diagnose cost structures in portfolio strategy for PE funds to drive stronger prioritization in a investor-legible way.",
+      "hasAction": "acl:action/diagnose",
+      "hasObject": "acl:object/cost_structures",
+      "hasQualification": "acl:qualification/investor-legible",
+      "hasContext": "acl:context/portfolio_strategy",
+      "hasOutcome": "acl:outcome/stronger_prioritization",
+      "hasAudience": "acl:audience/PE_funds"
+    },
+    {
+      "@id": "acl:statement/S0023",
+      "@type": "AtomicStatement",
+      "identifier": "S0023",
+      "description": "Quantify revenue drivers in transformation planning for CFOs to drive better investment narrative in a action-oriented way.",
+      "hasAction": "acl:action/quantify",
+      "hasObject": "acl:object/revenue_drivers",
+      "hasQualification": "acl:qualification/action-oriented",
+      "hasContext": "acl:context/transformation_planning",
+      "hasOutcome": "acl:outcome/better_investment_narrative",
+      "hasAudience": "acl:audience/CFOs"
+    },
+    {
+      "@id": "acl:statement/S0024",
+      "@type": "AtomicStatement",
+      "identifier": "S0024",
+      "description": "Prioritize operating metrics in CFO conversations for CEOs to drive operating leverage in a operationally grounded way.",
+      "hasAction": "acl:action/prioritize",
+      "hasObject": "acl:object/operating_metrics",
+      "hasQualification": "acl:qualification/operationally_grounded",
+      "hasContext": "acl:context/CFO_conversations",
+      "hasOutcome": "acl:outcome/operating_leverage",
+      "hasAudience": "acl:audience/CEOs"
+    },
+    {
+      "@id": "acl:statement/S0025",
+      "@type": "AtomicStatement",
+      "identifier": "S0025",
+      "description": "Incubate solution concepts in new venture design for founders to drive better monetization in a scalable way.",
+      "hasAction": "acl:action/incubate",
+      "hasObject": "acl:object/solution_concepts",
+      "hasQualification": "acl:qualification/scalable",
+      "hasContext": "acl:context/new_venture_design",
+      "hasOutcome": "acl:outcome/better_monetization",
+      "hasAudience": "acl:audience/founders"
+    },
+    {
+      "@id": "acl:statement/S0026",
+      "@type": "AtomicStatement",
+      "identifier": "S0026",
+      "description": "Shape prototypes in internal productization for innovation teams to drive scalable offers in a differentiated way.",
+      "hasAction": "acl:action/shape",
+      "hasObject": "acl:object/prototypes",
+      "hasQualification": "acl:qualification/differentiated",
+      "hasContext": "acl:context/internal_productization",
+      "hasOutcome": "acl:outcome/scalable_offers",
+      "hasAudience": "acl:audience/innovation_teams"
+    },
+    {
+      "@id": "acl:statement/S0027",
+      "@type": "AtomicStatement",
+      "identifier": "S0027",
+      "description": "Validate commercialization paths in solution incubation for commercialization leads to drive faster validation in a practical way.",
+      "hasAction": "acl:action/validate",
+      "hasObject": "acl:object/commercialization_paths",
+      "hasQualification": "acl:qualification/practical",
+      "hasContext": "acl:context/solution_incubation",
+      "hasOutcome": "acl:outcome/faster_validation",
+      "hasAudience": "acl:audience/commercialization_leads"
+    },
+    {
+      "@id": "acl:statement/S0028",
+      "@type": "AtomicStatement",
+      "identifier": "S0028",
+      "description": "Document subprocesses in operational diagnostics for process owners to drive standardization in a evidence-based way.",
+      "hasAction": "acl:action/document",
+      "hasObject": "acl:object/subprocesses",
+      "hasQualification": "acl:qualification/evidence-based",
+      "hasContext": "acl:context/operational_diagnostics",
+      "hasOutcome": "acl:outcome/standardization",
+      "hasAudience": "acl:audience/process_owners"
+    },
+    {
+      "@id": "acl:statement/S0029",
+      "@type": "AtomicStatement",
+      "identifier": "S0029",
+      "description": "Map handoffs in documentation programs for PMO teams to drive efficiency improvement in a workflow-aware way.",
+      "hasAction": "acl:action/map",
+      "hasObject": "acl:object/handoffs",
+      "hasQualification": "acl:qualification/workflow-aware",
+      "hasContext": "acl:context/documentation_programs",
+      "hasOutcome": "acl:outcome/efficiency_improvement",
+      "hasAudience": "acl:audience/PMO_teams"
+    },
+    {
+      "@id": "acl:statement/S0030",
+      "@type": "AtomicStatement",
+      "identifier": "S0030",
+      "description": "Analyze roles in service delivery design for quality teams to drive training-ready artifacts in a improvement-oriented way.",
+      "hasAction": "acl:action/analyze",
+      "hasObject": "acl:object/roles",
+      "hasQualification": "acl:qualification/improvement-oriented",
+      "hasContext": "acl:context/service_delivery_design",
+      "hasOutcome": "acl:outcome/training-ready_artifacts",
+      "hasAudience": "acl:audience/quality_teams"
+    },
+    {
+      "@id": "acl:statement/S0031",
+      "@type": "AtomicStatement",
+      "identifier": "S0031",
+      "description": "Research competitors in pursuit prep for strategy teams to drive stronger recommendations in a decision-relevant way.",
+      "hasAction": "acl:action/research",
+      "hasObject": "acl:object/competitors",
+      "hasQualification": "acl:qualification/decision-relevant",
+      "hasContext": "acl:context/pursuit_prep",
+      "hasOutcome": "acl:outcome/stronger_recommendations",
+      "hasAudience": "acl:audience/strategy_teams"
+    },
+    {
+      "@id": "acl:statement/S0032",
+      "@type": "AtomicStatement",
+      "identifier": "S0032",
+      "description": "Synthesize trends in executive briefings for sellers to drive competitive clarity in a commercially useful way.",
+      "hasAction": "acl:action/synthesize",
+      "hasObject": "acl:object/trends",
+      "hasQualification": "acl:qualification/commercially_useful",
+      "hasContext": "acl:context/executive_briefings",
+      "hasOutcome": "acl:outcome/competitive_clarity",
+      "hasAudience": "acl:audience/sellers"
+    },
+    {
+      "@id": "acl:statement/S0033",
+      "@type": "AtomicStatement",
+      "identifier": "S0033",
+      "description": "Compare strategic signals in offering design for offering leaders to drive more informed decisions in a nuanced way.",
+      "hasAction": "acl:action/compare",
+      "hasObject": "acl:object/strategic_signals",
+      "hasQualification": "acl:qualification/nuanced",
+      "hasContext": "acl:context/offering_design",
+      "hasOutcome": "acl:outcome/more_informed_decisions",
+      "hasAudience": "acl:audience/offering_leaders"
+    },
+    {
+      "@id": "acl:statement/S0034",
+      "@type": "AtomicStatement",
+      "identifier": "S0034",
+      "description": "Evaluate agent behaviors in regulated workflows for risk leaders to drive clear remediation in a measurable way.",
+      "hasAction": "acl:action/evaluate",
+      "hasObject": "acl:object/agent_behaviors",
+      "hasQualification": "acl:qualification/measurable",
+      "hasContext": "acl:context/regulated_workflows",
+      "hasOutcome": "acl:outcome/clear_remediation",
+      "hasAudience": "acl:audience/risk_leaders"
+    },
+    {
+      "@id": "acl:statement/S0035",
+      "@type": "AtomicStatement",
+      "identifier": "S0035",
+      "description": "Diagnose quality criteria in output review for legal and compliance teams to drive greater trust in a explainable way.",
+      "hasAction": "acl:action/diagnose",
+      "hasObject": "acl:object/quality_criteria",
+      "hasQualification": "acl:qualification/explainable",
+      "hasContext": "acl:context/output_review",
+      "hasOutcome": "acl:outcome/greater_trust",
+      "hasAudience": "acl:audience/legal_and_compliance_teams"
+    },
+    {
+      "@id": "acl:statement/S0036",
+      "@type": "AtomicStatement",
+      "identifier": "S0036",
+      "description": "Classify risk types in model oversight for executives to drive better accountability in a governance-ready way.",
+      "hasAction": "acl:action/classify",
+      "hasObject": "acl:object/risk_types",
+      "hasQualification": "acl:qualification/governance-ready",
+      "hasContext": "acl:context/model_oversight",
+      "hasOutcome": "acl:outcome/better_accountability",
+      "hasAudience": "acl:audience/executives"
+    },
+    {
+      "@id": "acl:statement/S0037",
+      "@type": "AtomicStatement",
+      "identifier": "S0037",
+      "description": "Teach mindsets in leadership development for managers to drive improved confidence in a accessible way.",
+      "hasAction": "acl:action/teach",
+      "hasObject": "acl:object/mindsets",
+      "hasQualification": "acl:qualification/accessible",
+      "hasContext": "acl:context/leadership_development",
+      "hasOutcome": "acl:outcome/improved_confidence",
+      "hasAudience": "acl:audience/managers"
+    },
+    {
+      "@id": "acl:statement/S0038",
+      "@type": "AtomicStatement",
+      "identifier": "S0038",
+      "description": "Equip behaviors in enterprise enablement for employees to drive behavior change in a repeatable way.",
+      "hasAction": "acl:action/equip",
+      "hasObject": "acl:object/behaviors",
+      "hasQualification": "acl:qualification/repeatable",
+      "hasContext": "acl:context/enterprise_enablement",
+      "hasOutcome": "acl:outcome/behavior_change",
+      "hasAudience": "acl:audience/employees"
+    },
+    {
+      "@id": "acl:statement/S0039",
+      "@type": "AtomicStatement",
+      "identifier": "S0039",
+      "description": "Activate training materials in change management for enablement functions to drive reduced resistance in a adoption-focused way.",
+      "hasAction": "acl:action/activate",
+      "hasObject": "acl:object/training_materials",
+      "hasQualification": "acl:qualification/adoption-focused",
+      "hasContext": "acl:context/change_management",
+      "hasOutcome": "acl:outcome/reduced_resistance",
+      "hasAudience": "acl:audience/enablement_functions"
+    },
+    {
+      "@id": "acl:statement/S0040",
+      "@type": "AtomicStatement",
+      "identifier": "S0040",
+      "description": "Write white papers in publication for clients to drive executive understanding in a readable way.",
+      "hasAction": "acl:action/write",
+      "hasObject": "acl:object/white_papers",
+      "hasQualification": "acl:qualification/readable",
+      "hasContext": "acl:context/publication",
+      "hasOutcome": "acl:outcome/executive_understanding",
+      "hasAudience": "acl:audience/clients"
+    },
+    {
+      "@id": "acl:statement/S0041",
+      "@type": "AtomicStatement",
+      "identifier": "S0041",
+      "description": "Frame frameworks in executive education for market audiences to drive demand creation in a high-signal way.",
+      "hasAction": "acl:action/frame",
+      "hasObject": "acl:object/frameworks",
+      "hasQualification": "acl:qualification/high-signal",
+      "hasContext": "acl:context/executive_education",
+      "hasOutcome": "acl:outcome/demand_creation",
+      "hasAudience": "acl:audience/market_audiences"
+    },
+    {
+      "@id": "acl:statement/S0042",
+      "@type": "AtomicStatement",
+      "identifier": "S0042",
+      "description": "Synthesize strategic narratives in market education for conference organizers to drive clearer narratives in a distinctive way.",
+      "hasAction": "acl:action/synthesize",
+      "hasObject": "acl:object/strategic_narratives",
+      "hasQualification": "acl:qualification/distinctive",
+      "hasContext": "acl:context/market_education",
+      "hasOutcome": "acl:outcome/clearer_narratives",
+      "hasAudience": "acl:audience/conference_organizers"
+    },
+    {
+      "@id": "acl:statement/S0043",
+      "@type": "AtomicStatement",
+      "identifier": "S0043",
+      "description": "Specify UX logic in internal tool builds for product managers to drive stronger usability in a modular way.",
+      "hasAction": "acl:action/specify",
+      "hasObject": "acl:object/UX_logic",
+      "hasQualification": "acl:qualification/modular",
+      "hasContext": "acl:context/internal_tool_builds",
+      "hasOutcome": "acl:outcome/stronger_usability",
+      "hasAudience": "acl:audience/product_managers"
+    },
+    {
+      "@id": "acl:statement/S0044",
+      "@type": "AtomicStatement",
+      "identifier": "S0044",
+      "description": "Design build specs in prototype handoffs for designers to drive clearer developer handoff in a clear way.",
+      "hasAction": "acl:action/design",
+      "hasObject": "acl:object/build_specs",
+      "hasQualification": "acl:qualification/clear",
+      "hasContext": "acl:context/prototype_handoffs",
+      "hasOutcome": "acl:outcome/clearer_developer_handoff",
+      "hasAudience": "acl:audience/designers"
+    },
+    {
+      "@id": "acl:statement/S0045",
+      "@type": "AtomicStatement",
+      "identifier": "S0045",
+      "description": "Sequence system prompts in solution design for founders to drive reduced ambiguity in a developer-usable way.",
+      "hasAction": "acl:action/sequence",
+      "hasObject": "acl:object/system_prompts",
+      "hasQualification": "acl:qualification/developer-usable",
+      "hasContext": "acl:context/solution_design",
+      "hasOutcome": "acl:outcome/reduced_ambiguity",
+      "hasAudience": "acl:audience/founders"
+    },
+    {
+      "@id": "acl:statement/S0046",
+      "@type": "AtomicStatement",
+      "identifier": "S0046",
+      "description": "Configure prompts in enterprise copilots for AI teams to drive improved task completion in a reusable way.",
+      "hasAction": "acl:action/configure",
+      "hasObject": "acl:object/prompts",
+      "hasQualification": "acl:qualification/reusable",
+      "hasContext": "acl:context/enterprise_copilots",
+      "hasOutcome": "acl:outcome/improved_task_completion",
+      "hasAudience": "acl:audience/AI_teams"
+    },
+    {
+      "@id": "acl:statement/S0047",
+      "@type": "AtomicStatement",
+      "identifier": "S0047",
+      "description": "Orchestrate toolchains in rapid prototyping for consultants to drive reusable patterns in a quality-controlled way.",
+      "hasAction": "acl:action/orchestrate",
+      "hasObject": "acl:object/toolchains",
+      "hasQualification": "acl:qualification/quality-controlled",
+      "hasContext": "acl:context/rapid_prototyping",
+      "hasOutcome": "acl:outcome/reusable_patterns",
+      "hasAudience": "acl:audience/consultants"
+    },
+    {
+      "@id": "acl:statement/S0048",
+      "@type": "AtomicStatement",
+      "identifier": "S0048",
+      "description": "Prompt knowledge libraries in multi-agent systems for product owners to drive faster prototyping in a outcome-oriented way.",
+      "hasAction": "acl:action/prompt",
+      "hasObject": "acl:object/knowledge_libraries",
+      "hasQualification": "acl:qualification/outcome-oriented",
+      "hasContext": "acl:context/multi-agent_systems",
+      "hasOutcome": "acl:outcome/faster_prototyping",
+      "hasAudience": "acl:audience/product_owners"
+    },
+    {
+      "@id": "acl:statement/S0049",
+      "@type": "AtomicStatement",
+      "identifier": "S0049",
+      "description": "Position buyer narratives in proposal shaping for client partners to drive stronger pursuit discipline in a issue-led way.",
+      "hasAction": "acl:action/position",
+      "hasObject": "acl:object/buyer_narratives",
+      "hasQualification": "acl:qualification/issue-led",
+      "hasContext": "acl:context/proposal_shaping",
+      "hasOutcome": "acl:outcome/stronger_pursuit_discipline",
+      "hasAudience": "acl:audience/client_partners"
+    },
+    {
+      "@id": "acl:statement/S0050",
+      "@type": "AtomicStatement",
+      "identifier": "S0050",
+      "description": "Tailor talk tracks in sales conversations for account teams to drive clearer messaging in a context-aware way.",
+      "hasAction": "acl:action/tailor",
+      "hasObject": "acl:object/talk_tracks",
+      "hasQualification": "acl:qualification/context-aware",
+      "hasContext": "acl:context/sales_conversations",
+      "hasOutcome": "acl:outcome/clearer_messaging",
+      "hasAudience": "acl:audience/account_teams"
+    },
+    {
+      "@id": "acl:statement/S0051",
+      "@type": "AtomicStatement",
+      "identifier": "S0051",
+      "description": "Align proof points in pursuits for BD leaders to drive improved win support in a commercially sharp way.",
+      "hasAction": "acl:action/align",
+      "hasObject": "acl:object/proof_points",
+      "hasQualification": "acl:qualification/commercially_sharp",
+      "hasContext": "acl:context/pursuits",
+      "hasOutcome": "acl:outcome/improved_win_support",
+      "hasAudience": "acl:audience/BD_leaders"
+    },
+    {
+      "@id": "acl:statement/S0052",
+      "@type": "AtomicStatement",
+      "identifier": "S0052",
+      "description": "Adapt use cases in account targeting for clients to drive improved resonance in a nuance-aware way.",
+      "hasAction": "acl:action/adapt",
+      "hasObject": "acl:object/use_cases",
+      "hasQualification": "acl:qualification/nuance-aware",
+      "hasContext": "acl:context/account_targeting",
+      "hasOutcome": "acl:outcome/improved_resonance",
+      "hasAudience": "acl:audience/clients"
+    },
+    {
+      "@id": "acl:statement/S0053",
+      "@type": "AtomicStatement",
+      "identifier": "S0053",
+      "description": "Translate value stories in multi-industry consulting for sellers to drive reduced genericity in a strategically aligned way.",
+      "hasAction": "acl:action/translate",
+      "hasObject": "acl:object/value_stories",
+      "hasQualification": "acl:qualification/strategically_aligned",
+      "hasContext": "acl:context/multi-industry_consulting",
+      "hasOutcome": "acl:outcome/reduced_genericity",
+      "hasAudience": "acl:audience/sellers"
+    },
+    {
+      "@id": "acl:statement/S0054",
+      "@type": "AtomicStatement",
+      "identifier": "S0054",
+      "description": "Tailor messages in portfolio design for offering teams to drive better market access in a non-generic way.",
+      "hasAction": "acl:action/tailor",
+      "hasObject": "acl:object/messages",
+      "hasQualification": "acl:qualification/non-generic",
+      "hasContext": "acl:context/portfolio_design",
+      "hasOutcome": "acl:outcome/better_market_access",
+      "hasAudience": "acl:audience/offering_teams"
+    },
+    {
+      "@id": "acl:statement/S0055",
+      "@type": "AtomicStatement",
+      "identifier": "S0055",
+      "description": "Assess threat patterns in policy work for policy audiences to drive stronger safeguards in a ethically grounded way.",
+      "hasAction": "acl:action/assess",
+      "hasObject": "acl:object/threat_patterns",
+      "hasQualification": "acl:qualification/ethically_grounded",
+      "hasContext": "acl:context/policy_work",
+      "hasOutcome": "acl:outcome/stronger_safeguards",
+      "hasAudience": "acl:audience/policy_audiences"
+    },
+    {
+      "@id": "acl:statement/S0056",
+      "@type": "AtomicStatement",
+      "identifier": "S0056",
+      "description": "Anticipate behavioral risks in enterprise risk discussions for researchers to drive safer design in a risk-sensitive way.",
+      "hasAction": "acl:action/anticipate",
+      "hasObject": "acl:object/behavioral_risks",
+      "hasQualification": "acl:qualification/risk-sensitive",
+      "hasContext": "acl:context/enterprise_risk_discussions",
+      "hasOutcome": "acl:outcome/safer_design",
+      "hasAudience": "acl:audience/researchers"
+    },
+    {
+      "@id": "acl:statement/S0057",
+      "@type": "AtomicStatement",
+      "identifier": "S0057",
+      "description": "Analyze safety gaps in trust and safety strategy for executives to drive differentiated safety perspective in a analytically rigorous way.",
+      "hasAction": "acl:action/analyze",
+      "hasObject": "acl:object/safety_gaps",
+      "hasQualification": "acl:qualification/analytically_rigorous",
+      "hasContext": "acl:context/trust_and_safety_strategy",
+      "hasOutcome": "acl:outcome/differentiated_safety_perspective",
+      "hasAudience": "acl:audience/executives"
+    },
+    {
+      "@id": "acl:statement/S0058",
+      "@type": "AtomicStatement",
+      "identifier": "S0058",
+      "description": "Envision brands in advisory launch for buyers to drive scalable IP platform in a market-oriented way.",
+      "hasAction": "acl:action/envision",
+      "hasObject": "acl:object/brands",
+      "hasQualification": "acl:qualification/market-oriented",
+      "hasContext": "acl:context/advisory_launch",
+      "hasOutcome": "acl:outcome/scalable_IP_platform",
+      "hasAudience": "acl:audience/buyers"
+    },
+    {
+      "@id": "acl:statement/S0059",
+      "@type": "AtomicStatement",
+      "identifier": "S0059",
+      "description": "Package services in studio models for investors to drive stronger monetization in a scalable way.",
+      "hasAction": "acl:action/package",
+      "hasObject": "acl:object/services",
+      "hasQualification": "acl:qualification/scalable",
+      "hasContext": "acl:context/studio_models",
+      "hasOutcome": "acl:outcome/stronger_monetization",
+      "hasAudience": "acl:audience/investors"
+    },
+    {
+      "@id": "acl:statement/S0060",
+      "@type": "AtomicStatement",
+      "identifier": "S0060",
+      "description": "Launch products in adjacent business lines for strategic partners to drive ecosystem leverage in a strategically coherent way.",
+      "hasAction": "acl:action/launch",
+      "hasObject": "acl:object/products",
+      "hasQualification": "acl:qualification/strategically_coherent",
+      "hasContext": "acl:context/adjacent_business_lines",
+      "hasOutcome": "acl:outcome/ecosystem_leverage",
+      "hasAudience": "acl:audience/strategic_partners"
+    }
+  ]
+}
